@@ -1,6 +1,6 @@
 # KLA_Election_2026_Aparan
 
-## 🔍 Major Insights
+## Major Insights
 
 - **52 constituencies affected** — ~37% of Kerala’s 140 constituencies  
 - **144 candidates involved**, across **62 clashing first names**
