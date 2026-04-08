@@ -1,0 +1,883 @@
+﻿constituency_no,constituency,district,polling_booths,total_voters,female_voters,male_voters,alliance,candidate_name,party
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",LDF,K. R. Jayananda,CPI(M)
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",UDF,A. K. M. Ashraf,IUML
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",NDA,K. Surendran,BJP
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,Sanjeeva,BSP
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,Abdul Latheef I,Independent
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,D Surendran Nair,Independent
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,Gean Lavina Monteiro,Independent
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,John D' Souza,Independent
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,Kannur Abdulla Master,Independent
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,Mohammed Ashraf,Independent
+1,Manjeshwaram,Kasaragod,229,"2,30,113","1,14,312","1,15,801",Others,Mohammed Ashraf K A,Independent
+2,Kasaragod,Kasaragod,218,"2,10,923","1,05,399","1,05,524",LDF,Shanavas Padhoor,Independent (INL Support)
+2,Kasaragod,Kasaragod,218,"2,10,923","1,05,399","1,05,524",UDF,Kallatra Mahin Haji,IUML
+2,Kasaragod,Kasaragod,218,"2,10,923","1,05,399","1,05,524",NDA,Ashwini M.L.,BJP
+2,Kasaragod,Kasaragod,218,"2,10,923","1,05,399","1,05,524",Others,Mohammed Ali Fathah B M,Independent
+2,Kasaragod,Kasaragod,218,"2,10,923","1,05,399","1,05,524",Others,Shanavas A A,Independent
+3,Udma,Kasaragod,237,"2,28,512","1,16,342","1,12,166",LDF,C. H. Kunhambu,CPI(M)
+3,Udma,Kasaragod,237,"2,28,512","1,16,342","1,12,166",UDF,Neelakantan,INC
+3,Udma,Kasaragod,237,"2,28,512","1,16,342","1,12,166",NDA,Manulal Meloth,BJP
+3,Udma,Kasaragod,237,"2,28,512","1,16,342","1,12,166",Others,Kunhampu P P S/o Raman,Independent
+3,Udma,Kasaragod,237,"2,28,512","1,16,342","1,12,166",Others,Kunhiraman,Independent
+3,Udma,Kasaragod,237,"2,28,512","1,16,342","1,12,166",Others,Naseer,Independent
+4,Kanhangad,Kasaragod,239,"2,23,980","1,14,966","1,09,008",LDF,Govindan Pallikkappil,CPI
+4,Kanhangad,Kasaragod,239,"2,23,980","1,14,966","1,09,008",UDF,Shyji Ottapalli,KEC
+4,Kanhangad,Kasaragod,239,"2,23,980","1,14,966","1,09,008",NDA,M. Balraj,BJP
+4,Kanhangad,Kasaragod,239,"2,23,980","1,14,966","1,09,008",Others,B. Vijayakumar,BSP
+5,Thrikaripur,Kasaragod,218,"2,10,090","1,08,044","1,02,044",LDF,V. P. P. Mustafa,CPI(M)
+5,Thrikaripur,Kasaragod,218,"2,10,090","1,08,044","1,02,044",UDF,Sandeep Varier,INC
+5,Thrikaripur,Kasaragod,218,"2,10,090","1,08,044","1,02,044",NDA,Ravi Kulangara,TTP
+5,Thrikaripur,Kasaragod,218,"2,10,090","1,08,044","1,02,044",Others,Musthafa P P,Independent
+5,Thrikaripur,Kasaragod,218,"2,10,090","1,08,044","1,02,044",Others,Musthafa V P,Independent
+5,Thrikaripur,Kasaragod,218,"2,10,090","1,08,044","1,02,044",Others,Sandeep Elatt,Independent
+6,Payyanur,Kannur,192,"1,88,935","97,926","91,006",LDF,T. I. Madhusoodanan,CPI(M)
+6,Payyanur,Kannur,192,"1,88,935","97,926","91,006",UDF,V. Kunjikrishnan,Independent (RSP support)
+6,Payyanur,Kannur,192,"1,88,935","97,926","91,006",NDA,A. P. Gangadharan,BJP
+6,Payyanur,Kannur,192,"1,88,935","97,926","91,006",Others,Sandeep V. K.,Independent
+7,Kalliasseri,Kannur,184,"2,03,796","1,06,147","97,648",LDF,M. Vijin,CPI(M)
+7,Kalliasseri,Kannur,184,"2,03,796","1,06,147","97,648",UDF,Adv. Rajeevan Kappacheri,INC
+7,Kalliasseri,Kannur,184,"2,03,796","1,06,147","97,648",NDA,A.V. Sanil Kumar,BJP
+7,Kalliasseri,Kannur,184,"2,03,796","1,06,147","97,648",Others,K.K. Abdul Jabbar,SDPI
+7,Kalliasseri,Kannur,184,"2,03,796","1,06,147","97,648",Others,Rajeevan Kannoth S/o Kammaran,Independent
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",LDF,P. K. Shyamala,CPI(M)
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",UDF,T K Govindan Master,Independent (INC Support)
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",NDA,N. Haridas,BJP
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,Anappally Gopalan,AAP
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,Shyamala P,Independent
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,T. K. Govindan,Independent
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,Abdul Salam K P,Independent
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,C Balakrishnan Yadav,Independent
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,Khamaruddeen C V,Independent
+8,Taliparamba,Kannur,233,"2,32,280","1,20,353","1,11,926",Others,Koyyam Janardhanan,Independent
+9,Irikkur,Kannur,214,"1,99,326","1,00,464","98,862",LDF,Adv. Mathew Kunnappally,Kerala Congress (M)
+9,Irikkur,Kannur,214,"1,99,326","1,00,464","98,862",UDF,Adv. Sajeev Joseph,INC
+9,Irikkur,Kannur,214,"1,99,326","1,00,464","98,862",NDA,Sreenath Padmanabhan,TTP
+9,Irikkur,Kannur,214,"1,99,326","1,00,464","98,862",Others,Joseph P.V,AAP
+9,Irikkur,Kannur,214,"1,99,326","1,00,464","98,862",Others,M. J. Mathew,SDPI
+9,Irikkur,Kannur,214,"1,99,326","1,00,464","98,862",Others,Amal K T,Independent
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",LDF,K. V. Sumesh,CPI(M)
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",UDF,Adv. Kareem Cheleri,IUML
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",NDA,K. K. Vinod Kumar,BJP
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",Others,Reshmi Ravi,SUCI
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",Others,Sumesh Kumar. K,Independent
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",Others,Sumesh. T. P,Independent
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",Others,Abdul Kareem. V. V,Independent
+10,Azhikode,Kannur,185,"1,88,250","98,280","89,967",Others,Kareem Chandroth,Independent
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",LDF,Kadannappalli Ramachandran,Congress (Secular)
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",UDF,Adv. T. O. Mohanan,INC
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",NDA,C. Raghunath,BJP
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",Others,Suresh Kumar,BJKP
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",Others,M.K. Shahazad,SUCI
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",Others,T.K. Mohanan,Independent
+11,Kannur,Kannur,179,"1,82,682","94,865","87,817",Others,Ramachandran Kuniyil,Independent
+12,Dharmadom,Kannur,198,"2,06,000","1,07,950","98,049",LDF,Pinarayi Vijayan,CPI(M)
+12,Dharmadom,Kannur,198,"2,06,000","1,07,950","98,049",UDF,Adv. V.P Abdul Rasheed,INC
+12,Dharmadom,Kannur,198,"2,06,000","1,07,950","98,049",NDA,K. Ranjith,BJP
+12,Dharmadom,Kannur,198,"2,06,000","1,07,950","98,049",Others,Vadi Hareendran,Independent
+12,Dharmadom,Kannur,198,"2,06,000","1,07,950","98,049",Others,Vijayan A.M S/o Kunhiraman,Independent
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",LDF,Karayi Rajan,CPI(M)
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",UDF,K. P. Saju,INC
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",NDA,O. Nidheesh,BJP
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",Others,A.C. Jalaluddin,SDPI
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",Others,Rajan O P,Independent
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",Others,V. P. Rajan,Independent
+13,Thalassery,Kannur,189,"1,85,841","96,707","89,133",Others,Saju V P,Independent
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",LDF,P. K. Praveen,RJD
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",UDF,Jayanthi Rajan,IUML
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",NDA,Adv. Shijilal,BJP
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",Others,Rafeed AP,AAP
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",Others,M. Shylaja,Independent
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",Others,Jayanthi,Independent
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",Others,K. P. Mohanan,Independent
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",Others,Praveen Kumar,Independent
+14,Kuthuparamba,Kannur,215,"2,05,771","1,05,444","1,00,327",Others,Shahul Hameed,Independent
+15,Mattanur,Kannur,205,"2,01,719","1,04,166","97,553",LDF,V. K. Sanoj,CPI(M)
+15,Mattanur,Kannur,205,"2,01,719","1,04,166","97,553",UDF,Chandran Thillankeri,INC
+15,Mattanur,Kannur,205,"2,01,719","1,04,166","97,553",NDA,Biju Elakkuzhi,BJP
+15,Mattanur,Kannur,205,"2,01,719","1,04,166","97,553",Others,Basheer Punnad,SDPI
+15,Mattanur,Kannur,205,"2,01,719","1,04,166","97,553",Others,Chandran Thengalath,Independent
+15,Mattanur,Kannur,205,"2,01,719","1,04,166","97,553",Others,Sanoj,Independent
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",LDF,Sitting MLA from different seat,K. K. Shailaja
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",UDF,Adv. Sunny Joseph,INC
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",NDA,Paily Vathiatt,BDJS
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Adv. Henstion George,AAP
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Aruvikkal Krishnan,CPIML Red Star
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Sunny,Independent
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Sunny Joseph Muthukulathel,Independent
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Venugopalan. C,Independent
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,C. Shylaja,Independent
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Narayana Kumar,Independent
+16,Peravoor,Kannur,183,"1,82,384","92,657","89,726",Others,Sailaja. A. V,Independent
+17,Mananthavady,Wayanad,237,"2,05,415","1,04,155","1,01,260",LDF,O. R. Kelu,CPI(M)
+17,Mananthavady,Wayanad,237,"2,05,415","1,04,155","1,01,260",UDF,Usha M A,INC
+17,Mananthavady,Wayanad,237,"2,05,415","1,04,155","1,01,260",NDA,P. Shyam Raj,BJP
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",LDF,M. S. Viswanathan,CPI(M)
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",UDF,I. C. Balakrishnan,INC
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",NDA,A. S. Kavitha,BJP
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",Others,Prakrithi N V,AAP
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",Others,Benadict,BSP
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",Others,V.A Ramesan,SUCI
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",Others,Balakrishnan Edakkal,Independent
+18,Sulthan Bathery,Wayanad,251,"2,25,329","1,15,788","1,09,540",Others,Rajesh R M,Independent
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",LDF,P. K. Anil Kumar,RJD
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",UDF,T. Siddique,INC
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",NDA,Prasanth Malavayal,BJP
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,Rafeek C A,AAP
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,V. K. Prakash,CPIML Red Star
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,N Hamza,SDPI
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,P. K. Anil Kumar,Independent
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,Sidheeque S/o Kunjammad,Independent
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,T K Ummer,Independent
+19,Kalpetta,Wayanad,227,"2,12,881","1,09,095","1,03,784",Others,Radhakrishnan M,Independent
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",LDF,M. K. Bhaskaran,RJD
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",UDF,K. K. Rema,RMPI
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",NDA,Adv. K. Dileep,BJP
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",Others,Shamseer Chombala,SDPI
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",Others,Bhaskaran K K S/o Kelappan,Independent
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",Others,Ramakrishnan Vattakandi,Independent
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",Others,Rama T P W/o Ashokan P K,Independent
+20,Vatakara,Kozhikode,186,"1,76,832","90,734","86,097",Others,Rama W/o Vijayan,Independent
+21,Kuttiady,Kozhikode,222,"2,15,940","1,09,592","1,06,343",LDF,K. P. Kunhammad Kutti Master,CPI(M)
+21,Kuttiady,Kozhikode,222,"2,15,940","1,09,592","1,06,343",UDF,Parakkal Abdulla,IUML
+21,Kuttiady,Kozhikode,222,"2,15,940","1,09,592","1,06,343",NDA,Ramadas Manaleri,BJP
+21,Kuttiady,Kozhikode,222,"2,15,940","1,09,592","1,06,343",Others,Abdulla,Independent
+21,Kuttiady,Kozhikode,222,"2,15,940","1,09,592","1,06,343",Others,Kunhammadkutty,Independent
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",LDF,Adv. P. Vasantham,CPI
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",UDF,K. M. Abhijith,INC
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",NDA,C. P. Vipin Chandran,BJP
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",Others,Vasantha,Independent
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",Others,K. M. Abhijith,Independent
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",Others,"Abhijith, s/o Balan",Independent
+22,Nadapuram,Kozhikode,254,"2,33,690","1,17,498","1,16,190",Others,Padmakumar,Independent
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",LDF,K. Dasan,CPI(M)
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",UDF,K. Praveen Kumar,INC
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",NDA,C. R. Praphul Krishnan,BJP
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",Others,Musthafa PK (Padinjare Kuniyoth),AAP
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",Others,Dasan,Independent
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",Others,Praveen,Independent
+23,Koyilandy,Kozhikode,231,"2,13,254","1,09,806","1,03,445",Others,Praveen Kumar,Independent
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",LDF,T. P. Ramakrishnan,CPI(M)
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",UDF,Adv. Fathima Thahiliya,IUML
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",NDA,M. Mohanan Master,BJP
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,Ranjith Malayil,AAP
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,Akhil Kumar A.M,CPIML Red Star
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,T.M Ramakrishnan,Independent
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,Fathima Nasri.V,Independent
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,Fathimathu Ruksana.P,Independent
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,K. Ramakrishnan,Independent
+24,Perambra,Kozhikode,232,"2,05,970","1,05,112","1,00,858",Others,P.K Biju Master,Independent
+25,Balussery,Kozhikode,256,"2,28,689","1,17,466","1,11,219",LDF,Adv. K.M. Sachindev,CPI(M)
+25,Balussery,Kozhikode,256,"2,28,689","1,17,466","1,11,219",UDF,V. T. Sooraj,INC
+25,Balussery,Kozhikode,256,"2,28,689","1,17,466","1,11,219",NDA,C. P. Sateeshan,BJP
+25,Balussery,Kozhikode,256,"2,28,689","1,17,466","1,11,219",Others,Sooraj K S/o Asokan,Independent
+25,Balussery,Kozhikode,256,"2,28,689","1,17,466","1,11,219",Others,Abhijith,Independent
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",LDF,A. K. Saseendran,NCP(SP)
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",UDF,Adv. Vidya Balakrishnan,INC
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",NDA,T. Devadas,BJP
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",Others,Abdul Basith Atholi,AAP
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",Others,P.K.Saseendran,NCP
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",Others,P.M.Sreekumar,SUCI
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",Others,V.K. Saseendran,Independent
+26,Elathur,Kozhikode,209,"2,11,105","1,09,228","1,01,875",Others,Adv.Sumin.S.Nedungadan,Independent
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",LDF,Thottathil Ravindran,CPI(M)
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",UDF,Adv. K Jayanth,INC
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",NDA,Navya Haridas,BJP
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",Others,Dr. Alphonsa Mathew,AAP
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",Others,A Sajeena,SUCI
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",Others,Jayanth Kumar,Independent
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",Others,Jayanth S,Independent
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",Others,Raveendran,Independent
+27,Kozhikode North,Kozhikode,186,"1,73,205","91,056","82,145",Others,Raveendranathan Nair,Independent
+28,Kozhikode South,Kozhikode,168,"1,55,972","79,802","76,168",LDF,Ahamed Devarkovil,INL
+28,Kozhikode South,Kozhikode,168,"1,55,972","79,802","76,168",UDF,Adv. Fyzal Babu,IUML
+28,Kozhikode South,Kozhikode,168,"1,55,972","79,802","76,168",NDA,T. Raneesh,BJP
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",LDF,Muhammad Riyas,CPI(M)
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",UDF,P. V. Anvar,AITC
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",NDA,Adv. K. P. Prakash Babu,BJP
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",Others,Anver S/o Enunni,Independent
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",Others,Anver S/o Moideenkoya,Independent
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",Others,Anver S/o Sulaikha K P,Independent
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",Others,Anwar Ali Hassan S/o Kuttyhassan,Independent
+29,Beypore,Kozhikode,215,"2,18,558","1,11,532","1,07,022",Others,Muhammed Riyas P.C S/o Ahammedkutty .P C,Independent
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",LDF,Adv. P.T.A Rahim,Independent (CPI(M) support)
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",UDF,M. A. Razak Master,IUML
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",NDA,Adv. V. K. Sajeevan,BJP
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",Others,Santhosh P T,AIHCP
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",Others,Abdul Razak,Independent
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",Others,Abdu Rasak,Independent
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",Others,Mavoor Muhammed Ali,Independent
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",Others,Raheem P,Independent
+30,Kunnamangalam,Kozhikode,255,"2,41,980","1,23,879","1,18,100",Others,Rahim,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",LDF,Saleem Madavoor,Independent (CPI(M) support)
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",UDF,P. K. Firos,IUML
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",NDA,Giri Pambanal,BDJS
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Bavan Kutty K M,AAP
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Sunil Mannath,RPI (A)
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Abdul Shukoor,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Firose K C S/o Moitheenkutty,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Firose S/o Aboobacker Musaliar,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Lakshmanan K P Thamarassery,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Sajir K,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Saleem C K,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Saleem Muttanchery,Independent
+31,Koduvally,Kozhikode,214,"2,01,668","1,01,470","1,00,198",Others,Shaheeda C P,Independent
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",LDF,Linto Joseph,CPI(M)
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",UDF,C. K. Kasim,IUML
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",NDA,Sunny Thomas,TTP
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",Others,Sunny V Joseph,AAP
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",Others,Dr. Wilson Rockey,Independent
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",Others,Muhammed Kasim,Independent
+32,Thiruvambady,Kozhikode,209,"1,91,954","97,007","94,944",Others,P K Kasim S/o Abdullakkutty Haji,Independent
+33,Kondotty,Malappuram,246,"2,29,370","1,13,366","1,16,003",LDF,Dr. P. Jiji,CPI(M)
+33,Kondotty,Malappuram,246,"2,29,370","1,13,366","1,16,003",UDF,T. P. Ashrafali,IUML
+33,Kondotty,Malappuram,246,"2,29,370","1,13,366","1,16,003",NDA,P. Subrahmanian,BJP
+33,Kondotty,Malappuram,246,"2,29,370","1,13,366","1,16,003",Others,Keeran N.K,BSP
+33,Kondotty,Malappuram,246,"2,29,370","1,13,366","1,16,003",Others,M. Abdul Khader,SDPI
+34,Eranad,Malappuram,213,"1,99,556","99,070","1,00,486",LDF,Adv. Shafeer Kizhisseri,CPI
+34,Eranad,Malappuram,213,"1,99,556","99,070","1,00,486",UDF,P. K. Basheer,IUML
+34,Eranad,Malappuram,213,"1,99,556","99,070","1,00,486",NDA,Adv. N. Sreeprakash,BJP
+34,Eranad,Malappuram,213,"1,99,556","99,070","1,00,486",Others,Krishnan Thachannan,BSP
+34,Eranad,Malappuram,213,"1,99,556","99,070","1,00,486",Others,Yusuf Chemmala,SDPI
+34,Eranad,Malappuram,213,"1,99,556","99,070","1,00,486",Others,Mujeeb Rahman,Independent
+35,Nilambur,Malappuram,263,"2,36,576","1,20,683","1,15,886",LDF,U. Sharafali,Independent (CPI(M) support)
+35,Nilambur,Malappuram,263,"2,36,576","1,20,683","1,15,886",UDF,Aryadan Shoukath,INC
+35,Nilambur,Malappuram,263,"2,36,576","1,20,683","1,15,886",NDA,Gireesh Mekkad,BDJS
+35,Nilambur,Malappuram,263,"2,36,576","1,20,683","1,15,886",Others,Jaisal Maliyekkal,AAP
+36,Wandoor,Malappuram,257,"2,47,184","1,25,711","1,21,473",LDF,Dr. K.K Damodaran,CPI(M)
+36,Wandoor,Malappuram,257,"2,47,184","1,25,711","1,21,473",UDF,A. P. Anil Kumar,INC
+36,Wandoor,Malappuram,257,"2,47,184","1,25,711","1,21,473",NDA,E. P. Kumaradas,BJP (Independent)
+36,Wandoor,Malappuram,257,"2,47,184","1,25,711","1,21,473",Others,Anilkumar S/o Kuttan,Independent
+37,Manjeri,Malappuram,237,"2,27,762","1,14,158","1,13,604",LDF,V. M. Mustafa,Independent (CPI support)
+37,Manjeri,Malappuram,237,"2,27,762","1,14,158","1,13,604",UDF,Adv. M. Rahmathulla,IUML
+37,Manjeri,Malappuram,237,"2,27,762","1,14,158","1,13,604",NDA,Pathmasree M.,BJP
+37,Manjeri,Malappuram,237,"2,27,762","1,14,158","1,13,604",Others,Adv. PPA Sageer,AAP
+37,Manjeri,Malappuram,237,"2,27,762","1,14,158","1,13,604",Others,Bipin Benson Joseph,Independent
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",LDF,V. P. Muhammad Haneefa,CPI(M)
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",UDF,Najeeb Kanthapuram,IUML
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",NDA,Adv. K.P. Baburaj,BJP
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",Others,Abdul Najeeb S/o Mohamed,Independent
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",Others,Abdul Najeeb S/o Veerappu,Independent
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",Others,Haneefa,Independent
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",Others,Mohammed Haneefa P S/o Alavi,Independent
+38,Perinthalmanna,Malappuram,244,"2,29,525","1,16,093","1,13,431",Others,Najeeb,Independent
+39,Mankada,Malappuram,232,"2,30,838","1,15,592","1,15,245",LDF,Kunnath Mohamed S/o Ali Haji,Independent (CPI(M) support)
+39,Mankada,Malappuram,232,"2,30,838","1,15,592","1,15,245",UDF,Manjalamkuzhi Ali,IUML
+39,Mankada,Malappuram,232,"2,30,838","1,15,592","1,15,245",NDA,Lijoy Paul,BJP
+39,Mankada,Malappuram,232,"2,30,838","1,15,592","1,15,245",Others,Kunnath Muhammed,Independent
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",LDF,K. T. Mujeeb,NCP(SP)
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",UDF,Sitting MLA from different seat,P. K. Kunhalikutty
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",NDA,Ashwathy Gupatha Kumar,BJP
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",Others,Aboobacker K.P. (Kundupuzhakkal),AAP
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",Others,Adv. Sadiq Naduthodi,SDPI
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",Others,Sreedharan,Independent
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",Others,Abdul Gafoor Master O.P.K,Independent
+40,Malappuram,Malappuram,239,"2,38,080","1,18,096","1,19,984",Others,Abdulsalam.K.P,Independent
+41,Vengara,Malappuram,192,"2,11,630","1,03,261","1,08,365",LDF,Muhammad Sabah Kundupuzhakkal,Independent (CPI(M) support)
+41,Vengara,Malappuram,192,"2,11,630","1,03,261","1,08,365",UDF,K. M. Shaji,IUML
+41,Vengara,Malappuram,192,"2,11,630","1,03,261","1,08,365",NDA,Jayakrishnan V.N.,BJP
+41,Vengara,Malappuram,192,"2,11,630","1,03,261","1,08,365",Others,U.P. Shaji,Independent
+41,Vengara,Malappuram,192,"2,11,630","1,03,261","1,08,365",Others,Abdul Rafeeq Chemban,Independent
+41,Vengara,Malappuram,192,"2,11,630","1,03,261","1,08,365",Others,K.M.Shaji Shymalayam,Independent
+42,Vallikkunnu,Malappuram,225,"2,21,036","1,09,697","1,11,338",LDF,Adv. C. P. Musthafa,Independent (INL support)
+42,Vallikkunnu,Malappuram,225,"2,21,036","1,09,697","1,11,338",UDF,Sitting MLA from different seat,T. V. Ibrahim
+42,Vallikkunnu,Malappuram,225,"2,21,036","1,09,697","1,11,338",NDA,M. Preman Master,BJP
+42,Vallikkunnu,Malappuram,225,"2,21,036","1,09,697","1,11,338",Others,Abdul Azeez Kadalundi,AAP
+42,Vallikkunnu,Malappuram,225,"2,21,036","1,09,697","1,11,338",Others,Muhamed Musthafa Pamangadan,Independent
+42,Vallikkunnu,Malappuram,225,"2,21,036","1,09,697","1,11,338",Others,Muhammed Aslam V P,Independent
+43,Tirurangadi,Malappuram,204,"2,22,792","1,09,776","1,13,015",LDF,Ajit Koladi,CPI
+43,Tirurangadi,Malappuram,204,"2,22,792","1,09,776","1,13,015",UDF,P. M. A. Sameer,IUML
+43,Tirurangadi,Malappuram,204,"2,22,792","1,09,776","1,13,015",NDA,Riju C. Raghav,BJP
+43,Tirurangadi,Malappuram,204,"2,22,792","1,09,776","1,13,015",Others,Moosa Jarathingal,AAP
+43,Tirurangadi,Malappuram,204,"2,22,792","1,09,776","1,13,015",Others,Hameed V,SDPI
+44,Tanur,Malappuram,211,"2,14,101","1,06,020","1,08,077",LDF,Mohamed Sameer T Thiruthiyil House,Independent (CPI(M) support)
+44,Tanur,Malappuram,211,"2,14,101","1,06,020","1,08,077",UDF,P. K. Navas,IUML
+44,Tanur,Malappuram,211,"2,14,101","1,06,020","1,08,077",NDA,Deepa Puzhakkal,BJP
+44,Tanur,Malappuram,211,"2,14,101","1,06,020","1,08,077",Others,Muhammed Sameer,Independent
+44,Tanur,Malappuram,211,"2,14,101","1,06,020","1,08,077",Others,P P Navas S/o Kunhimuhamed,Independent
+44,Tanur,Malappuram,211,"2,14,101","1,06,020","1,08,077",Others,Sameer T,Independent
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",LDF,Sitting MLA from different seat,V. Abdurahiman
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",UDF,Kurukkoli Moideen,IUML
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",NDA,K. Narayanan Master,BJP
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",Others,Kabeer Shameer Kuttoor,AAP
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",Others,Siyad Koodiyath,SP (I)
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",Others,Dr.S.Aleena,SUCI
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",Others,V. Abdurahman,Independent
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",Others,Abdurahiman S/o Kunjeen,Independent
+45,Tirur,Malappuram,243,"2,55,441","1,27,229","1,28,200",Others,Moideen Koomulli Parambil,Independent
+46,Kottakkal,Malappuram,241,"2,43,014","1,20,161","1,22,850",LDF,K. Preethi,CPI(M)
+46,Kottakkal,Malappuram,241,"2,43,014","1,20,161","1,22,850",UDF,Prof. K. K. Abid Hussain Thangal,IUML
+46,Kottakkal,Malappuram,241,"2,43,014","1,20,161","1,22,850",NDA,Subrahmanian Chunkapally,BDJS
+46,Kottakkal,Malappuram,241,"2,43,014","1,20,161","1,22,850",Others,Adv. Majeed Marakkara,SDPI
+46,Kottakkal,Malappuram,241,"2,43,014","1,20,161","1,22,850",Others,Mohamed Rafi,Independent
+46,Kottakkal,Malappuram,241,"2,43,014","1,20,161","1,22,850",Others,Preethi Kp,Independent
+47,Thavanur,Malappuram,218,"2,08,776","1,04,915","1,03,861",LDF,Dr. K. T. Jaleel,Independent (CPI(M) support)
+47,Thavanur,Malappuram,218,"2,08,776","1,04,915","1,03,861",UDF,Adv. V S Joy,INC
+47,Thavanur,Malappuram,218,"2,08,776","1,04,915","1,03,861",NDA,Ravi Thelath,BDJS
+47,Thavanur,Malappuram,218,"2,08,776","1,04,915","1,03,861",Others,Abdul Jaleel,SDPI
+47,Thavanur,Malappuram,218,"2,08,776","1,04,915","1,03,861",Others,Abdul Jaleel K T S/o Moideen K T,Independent
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",LDF,Adv. M. K. Sakeer,CPI(M)
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",UDF,K. P. Noushad Ali,INC
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",NDA,E. Maneesh,BDJS
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",Others,Anvar Pazhanji,SDPI
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",Others,Noushadali,Independent
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",Others,Sageer M.K,Independent
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",Others,Sakkeer S/o Illyas,Independent
+48,Ponnani,Malappuram,219,"2,16,529","1,09,146","1,07,380",Others,Sakkeer S/o Muhammed,Independent
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",LDF,M. B. Rajesh,CPI(M)
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",UDF,V. T. Balram,INC
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",NDA,V. Unnikrishnan Master,BJP
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",Others,Adv Keerthi Jayanandhan,BSP
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",Others,Shaheer Chalippuram,SDPI
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",Others,T T Balaraman,Independent
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",Others,Abbas,Independent
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",Others,Balaraman,Independent
+49,Thrithala,Palakkad,218,"2,03,700","1,03,529","1,00,169",Others,Rajesh S/o Ramankutty,Independent
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",LDF,Muhammad Muhsin,CPI
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",UDF,T. P. Shaji,INC
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",NDA,Adv. P. Manoj,BJP
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",Others,S.P. Ameer Ali,SDPI
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",Others,Haris Babu Pailippuram,Independent
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",Others,Muhammed Muhsin. M. K Manjerikunnath,Independent
+50,Pattambi,Palakkad,222,"2,10,790","1,06,326","1,04,464",Others,shajimon,Independent
+51,Shornur,Palakkad,224,"1,99,620","1,02,232","97,386",LDF,P. Mammikkutty,CPI(M)
+51,Shornur,Palakkad,224,"1,99,620","1,02,232","97,386",UDF,P. Harigovindan,INC
+51,Shornur,Palakkad,224,"1,99,620","1,02,232","97,386",NDA,Adv. Sanku T. Das,BJP
+51,Shornur,Palakkad,224,"1,99,620","1,02,232","97,386",Others,Aboobacker,SDPI
+52,Ottapalam,Palakkad,238,"2,09,627","1,07,871","1,01,754",LDF,Adv. K. Premkumar,CPI(M)
+52,Ottapalam,Palakkad,238,"2,09,627","1,07,871","1,01,754",UDF,P. K. Sasi,Independent (INC Support)
+52,Ottapalam,Palakkad,238,"2,09,627","1,07,871","1,01,754",NDA,Major Ravi,BJP
+52,Ottapalam,Palakkad,238,"2,09,627","1,07,871","1,01,754",Others,K.P Rajeesh,BSP
+52,Ottapalam,Palakkad,238,"2,09,627","1,07,871","1,01,754",Others,Muhammed Asharaf V.H,Independent
+52,Ottapalam,Palakkad,238,"2,09,627","1,07,871","1,01,754",Others,Sasi P.K S/o Krishnankutty,Independent
+53,Kongad,Palakkad,193,"1,82,603","92,790","89,813",LDF,K. Shanthakumari,CPI(M)
+53,Kongad,Palakkad,193,"1,82,603","92,790","89,813",UDF,K. A. Thulasi,INC
+53,Kongad,Palakkad,193,"1,82,603","92,790","89,813",NDA,Renu Suresh,BJP
+53,Kongad,Palakkad,193,"1,82,603","92,790","89,813",Others,Guruvayoorappan P E,BSP
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",LDF,Manzil Aboobacker,CPI
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",UDF,Adv. N. Samsudheen,IUML
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",NDA,Isaac Varghese,BDJS
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",Others,Ashitha Najeeb,SDPI
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",Others,Aboobacker S/o Ayisha,Independent
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",Others,Shamsudheen S/o Muhammed,Independent
+54,Mannarkkad,Palakkad,220,"2,06,436","1,05,060","1,01,375",Others,Shamsudheen S/o Ummer,Independent
+55,Malampuzha,Palakkad,246,"1,95,429","1,00,156","95,268",LDF,A. Prabhakaran,CPI(M)
+55,Malampuzha,Palakkad,246,"1,95,429","1,00,156","95,268",UDF,A. Suresh,INC
+55,Malampuzha,Palakkad,246,"1,95,429","1,00,156","95,268",NDA,C. Krishnakumar,BJP
+55,Malampuzha,Palakkad,246,"1,95,429","1,00,156","95,268",Others,Saji P J,AAP
+55,Malampuzha,Palakkad,246,"1,95,429","1,00,156","95,268",Others,Ramnath C,BSP
+55,Malampuzha,Palakkad,246,"1,95,429","1,00,156","95,268",Others,K Prasad,SUCI
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",LDF,N. M. R. Razaq,Independent (CPI(M) support)
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",UDF,Ramesh Pisharody,INC
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",NDA,Sobha Surendran,BJP
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",Others,Udayan Sukumaran,AAP
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",Others,Krishnankutty K,BSP
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",Others,Reghu M,Independent
+56,Palakkad,Palakkad,219,"1,76,224","90,572","85,649",Others,Shamsudheen B,Independent
+57,Tarur,Palakkad,177,"1,64,930","83,803","81,127",LDF,P. P. Sumod,CPI(M)
+57,Tarur,Palakkad,177,"1,64,930","83,803","81,127",UDF,K. C. Subramanian,INC
+57,Tarur,Palakkad,177,"1,64,930","83,803","81,127",NDA,Suresh Babu,BJP
+57,Tarur,Palakkad,177,"1,64,930","83,803","81,127",Others,Narayanankutty K T,BSP
+58,Chittur,Palakkad,202,"1,72,015","88,104","83,908",LDF,Adv V. Murugadas,Indian Socialist Janata Dal
+58,Chittur,Palakkad,202,"1,72,015","88,104","83,908",UDF,Adv. Sumesh Achuthan,INC
+58,Chittur,Palakkad,202,"1,72,015","88,104","83,908",NDA,Pranesh Rajendran,BJP
+58,Chittur,Palakkad,202,"1,72,015","88,104","83,908",Others,Sumesh C,Independent
+58,Chittur,Palakkad,202,"1,72,015","88,104","83,908",Others,Murugadas. P. S/o Pazhaniappa Mudaliyaar,Independent
+58,Chittur,Palakkad,202,"1,72,015","88,104","83,908",Others,N S K Puram Sasikumar,Independent
+59,Nenmara,Palakkad,207,"1,81,690","91,635","90,054",LDF,K. Preman,CPI(M)
+59,Nenmara,Palakkad,207,"1,81,690","91,635","90,054",UDF,A. Thankappan,INC
+59,Nenmara,Palakkad,207,"1,81,690","91,635","90,054",NDA,A. N. Anurag,BDJS
+59,Nenmara,Palakkad,207,"1,81,690","91,635","90,054",Others,Anvar Sadiq,SDPI
+59,Nenmara,Palakkad,207,"1,81,690","91,635","90,054",Others,Radhakrishnan K,Independent
+59,Nenmara,Palakkad,207,"1,81,690","91,635","90,054",Others,Ramakrishna Sankaranarayanan,Independent
+60,Alathur,Palakkad,174,"1,65,657","84,007","81,649",LDF,T. M. Sasi,CPI(M)
+60,Alathur,Palakkad,174,"1,65,657","84,007","81,649",UDF,K. M. Febin,INC
+60,Alathur,Palakkad,174,"1,65,657","84,007","81,649",NDA,K.V. Prasanna Kumar,BJP
+60,Alathur,Palakkad,174,"1,65,657","84,007","81,649",Others,M T Chandran,BSP
+60,Alathur,Palakkad,174,"1,65,657","84,007","81,649",Others,B Febin S/o Balan K.C.,Independent
+61,Chelakkara,Thrissur,218,"2,03,956","1,05,188","98,768",LDF,U. R. Pradeep,CPI(M)
+61,Chelakkara,Thrissur,218,"2,03,956","1,05,188","98,768",UDF,Sivan Veettikkunnu,Independent (IUML Support)
+61,Chelakkara,Thrissur,218,"2,03,956","1,05,188","98,768",NDA,K. Balakrishnan,BJP
+61,Chelakkara,Thrissur,218,"2,03,956","1,05,188","98,768",Others,K V Subramaniyan,AAP
+61,Chelakkara,Thrissur,218,"2,03,956","1,05,188","98,768",Others,P. R. Vinod Kumar,SDPI
+62,Kunnamkulam,Thrissur,206,"1,96,839","1,01,199","95,639",LDF,A. C. Moytheen,CPI(M)
+62,Kunnamkulam,Thrissur,206,"1,96,839","1,01,199","95,639",UDF,P. T. Ajayamohan,INC
+62,Kunnamkulam,Thrissur,206,"1,96,839","1,01,199","95,639",NDA,Rijil K. R.,BDJS
+62,Kunnamkulam,Thrissur,206,"1,96,839","1,01,199","95,639",Others,Rajeev K Sivaraman,AAP
+63,Guruvayur,Thrissur,232,"2,18,704","1,12,128","1,06,573",LDF,N. K. Akbar,CPI(M)
+63,Guruvayur,Thrissur,232,"2,18,704","1,12,128","1,06,573",UDF,C. H. Rasheed,IUML
+63,Guruvayur,Thrissur,232,"2,18,704","1,12,128","1,06,573",NDA,B. Gopalakrishnan,BJP
+63,Guruvayur,Thrissur,232,"2,18,704","1,12,128","1,06,573",Others,Pauly Francis Guruvayur,AAP
+63,Guruvayur,Thrissur,232,"2,18,704","1,12,128","1,06,573",Others,K.V. Abdul Nasar Paroor,SDPI
+63,Guruvayur,Thrissur,232,"2,18,704","1,12,128","1,06,573",Others,C. R. Unnikrishnan,SUCI
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",LDF,C. Ravindranath,CPI(M)
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",UDF,T. N. Prathapan,INC
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",NDA,K. K. Aneesh Kumar,BJP
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Unnikrishnan C. S.,AAP
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Sivaprasad Gandhi K M,IGP
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Dileef Abdul Khader,SDPI
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Sujith,Independent
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Chandran P V,Independent
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Prathapan Divakaran,Independent
+64,Manalur,Thrissur,235,"2,22,278","1,13,553","1,08,724",Others,Raveendranath K,Independent
+65,Wadakkanchery,Thrissur,231,"2,01,786","1,04,361","97,422",LDF,Xeviyar Chittilappally,CPI(M)
+65,Wadakkanchery,Thrissur,231,"2,01,786","1,04,361","97,422",UDF,P N Vaisakh,INC
+65,Wadakkanchery,Thrissur,231,"2,01,786","1,04,361","97,422",NDA,Adv. T.S. Ullas Babu,BJP
+65,Wadakkanchery,Thrissur,231,"2,01,786","1,04,361","97,422",Others,Jithin Sadanananthan,AAP
+65,Wadakkanchery,Thrissur,231,"2,01,786","1,04,361","97,422",Others,Subramanian Penakam,BSP
+66,Ollur,Thrissur,215,"1,88,395","96,997","91,397",LDF,K. Rajan,CPI
+66,Ollur,Thrissur,215,"1,88,395","96,997","91,397",UDF,Adv. Shaji J Kodankandath,INC
+66,Ollur,Thrissur,215,"1,88,395","96,997","91,397",NDA,Bijoy Thomas,BJP
+66,Ollur,Thrissur,215,"1,88,395","96,997","91,397",Others,V P Prinson Avinissery,AAP
+66,Ollur,Thrissur,215,"1,88,395","96,997","91,397",Others,Edwin Babu Alapat,Independent
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",LDF,Alankode Leelakrishnan,CPI
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",UDF,Rajan Pallan,INC
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",NDA,Padmaja Venugopal,BJP
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",Others,Rani Anto,AAP
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",Others,Rosilin Chacko,BSP
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",Others,Arshed Aziz,CPIML Liberation
+67,Thrissur,Thrissur,209,"1,61,225","84,589","76,635",Others,Rajan. M,Independent
+68,Nattika,Thrissur,225,"2,03,427","1,05,580","97,846",LDF,Geetha Gopi,CPI
+68,Nattika,Thrissur,225,"2,03,427","1,05,580","97,846",UDF,Adv. Sunil Lalur,INC
+68,Nattika,Thrissur,225,"2,03,427","1,05,580","97,846",NDA,Sitting MLA from different party,C. C. Mukundan
+69,Kaipamangalam,Thrissur,191,"1,82,716","94,646","88,067",LDF,K. K. Valsaraj,CPI
+69,Kaipamangalam,Thrissur,191,"1,82,716","94,646","88,067",UDF,T. M. Nazar,INC
+69,Kaipamangalam,Thrissur,191,"1,82,716","94,646","88,067",NDA,Athulya Ghosh,BDJS
+69,Kaipamangalam,Thrissur,191,"1,82,716","94,646","88,067",Others,Jayan Eratt,AAP
+69,Kaipamangalam,Thrissur,191,"1,82,716","94,646","88,067",Others,Manoj M.M.,CPIML Red Star
+69,Kaipamangalam,Thrissur,191,"1,82,716","94,646","88,067",Others,A.M. Muhammed Riyas,SDPI
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",LDF,Dr. R. Bindu,CPI(M)
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",UDF,Adv. Thomas Unniyadan,KEC
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",NDA,Santhosh Cherkalam,BJP
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",Others,Dr. Shaju K Y (Kavungal),AAP
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",Others,Thankamany Tharayil,BSP
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",Others,Ayyappan Manakkal,Independent
+70,Irinjalakuda,Thrissur,223,"1,94,592","1,00,647","93,943",Others,Dr. Anish,Independent
+71,Puthukkad,Thrissur,225,"1,92,377","97,992","94,385",LDF,K. K. Ramachandran,CPI(M)
+71,Puthukkad,Thrissur,225,"1,92,377","97,992","94,385",UDF,K. M. Babu Raj,INC
+71,Puthukkad,Thrissur,225,"1,92,377","97,992","94,385",NDA,A. Nagesh,BJP
+71,Puthukkad,Thrissur,225,"1,92,377","97,992","94,385",Others,Jayakrishnan P N,AAP
+71,Puthukkad,Thrissur,225,"1,92,377","97,992","94,385",Others,P C Pushpakaran,BSP
+71,Puthukkad,Thrissur,225,"1,92,377","97,992","94,385",Others,Anifa V K,Independent
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",LDF,Adv Biju Chirayath,Kerala Congress (M)
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",UDF,T. J. Saneesh Kumar Joseph,INC
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",NDA,Adv. Charlypaul,TTP
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",Others,Wilson Kallen,AAP
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",Others,M S Asokan Mangalappilly,BSP
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",Others,A D Biju,Independent
+72,Chalakudy,Thrissur,219,"1,79,208","91,645","87,562",Others,Arun Edathadan,Independent
+73,Kodungallur,Thrissur,208,"1,87,212","96,055","91,157",LDF,Adv. V R Sunil Kumar,CPI
+73,Kodungallur,Thrissur,208,"1,87,212","96,055","91,157",UDF,Adv. O J Janeesh,INC
+73,Kodungallur,Thrissur,208,"1,87,212","96,055","91,157",NDA,Dr. Varghese George,TTP
+73,Kodungallur,Thrissur,208,"1,87,212","96,055","91,157",Others,Dr. K.M Francis Roy,AAP
+73,Kodungallur,Thrissur,208,"1,87,212","96,055","91,157",Others,Ravi A K,BSP
+73,Kodungallur,Thrissur,208,"1,87,212","96,055","91,157",Others,Nandagopan Vellathadi,Independent
+74,Perumbavoor,Ernakulam,202,"1,80,299","91,768","88,529",LDF,Basil Paul,Kerala Congress (M)
+74,Perumbavoor,Ernakulam,202,"1,80,299","91,768","88,529",UDF,Manoj Moothedan,INC
+74,Perumbavoor,Ernakulam,202,"1,80,299","91,768","88,529",NDA,Jibi Pathikkal,TTP
+74,Perumbavoor,Ernakulam,202,"1,80,299","91,768","88,529",Others,Adv. Prasanth,BSP
+74,Perumbavoor,Ernakulam,202,"1,80,299","91,768","88,529",Others,Eldho George,Independent
+74,Perumbavoor,Ernakulam,202,"1,80,299","91,768","88,529",Others,Mohanan M A,Independent
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",LDF,Saju Paul,CPI(M)
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",UDF,Roji M. John,INC
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",NDA,Promy Kuriakose,TTP
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",Others,P V Rajeesh,SUCI
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",Others,Subran,Independent
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",Others,Suphil Sebastian,Independent
+75,Angamaly,Ernakulam,217,"1,70,404","86,393","84,010",Others,Joby Paul Uppan,Independent
+76,Aluva,Ernakulam,248,"1,94,360","99,855","94,500",LDF,Adv. A. M. Ariff,CPI(M)
+76,Aluva,Ernakulam,248,"1,94,360","99,855","94,500",UDF,Anwar Sadath,INC
+76,Aluva,Ernakulam,248,"1,94,360","99,855","94,500",NDA,M.A. Brahmaraj,BJP
+76,Aluva,Ernakulam,248,"1,94,360","99,855","94,500",Others,Hakhikhath Hameed,AAP
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",LDF,P. Rajeev,CPI(M)
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",UDF,Adv. V. E. Abdul Gafoor,IUML
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",NDA,M. P. Binu,BDJS
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",Others,Shamsu T.K,AAP
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",Others,Siyad V A,BSP
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",Others,Ajmal K Mujeeb,SDPI
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",Others,A Rajeena,SUCI
+77,Kalamassery,Ernakulam,218,"1,97,712","1,01,976","95,734",Others,Rajeev S/o Vareed,Independent
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",LDF,Sitting MLA from different seat,E. T. Taison Master
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",UDF,Adv. V. D. Satheesan,INC
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",NDA,Vathsala Prasanna Kumar,BJP
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",Others,P.K.Rajesh,BSP
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",Others,V.M. Faisal,SDPI
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",Others,G.Gokuldev,Independent
+78,Paravur,Ernakulam,222,"1,91,646","98,216","93,430",Others,K.B.Satheesan,Independent
+79,Vypin,Ernakulam,216,"1,61,285","82,726","78,558",LDF,Adv. M. B. Shyni,CPI(M)
+79,Vypin,Ernakulam,216,"1,61,285","82,726","78,558",UDF,Tony Chammany,INC
+79,Vypin,Ernakulam,216,"1,61,285","82,726","78,558",NDA,Anitha Thomas,TTP
+79,Vypin,Ernakulam,216,"1,61,285","82,726","78,558",Others,Mohandas PG,AAP
+79,Vypin,Ernakulam,216,"1,61,285","82,726","78,558",Others,T. C. Subrahmanyan,CPIML Red Star
+79,Vypin,Ernakulam,216,"1,61,285","82,726","78,558",Others,Sadasivan,Independent
+80,Kochi,Ernakulam,241,"1,65,675","85,104","80,571",LDF,K. J. Maxi,CPI(M)
+80,Kochi,Ernakulam,241,"1,65,675","85,104","80,571",UDF,Mohammed Shiyas,INC
+80,Kochi,Ernakulam,241,"1,65,675","85,104","80,571",NDA,Adv. Xavier Joolappan,TTP
+80,Kochi,Ernakulam,241,"1,65,675","85,104","80,571",Others,Aneesh Mattancherry,SDPI
+80,Kochi,Ernakulam,241,"1,65,675","85,104","80,571",Others,Ajeesh P.E,Independent
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",LDF,Sitting MLA from different seat,K. N. Unnikrishnan
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",UDF,Deepak Joy,INC
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",NDA,Anjali .P. V,TTP
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",Others,Thomas Paul,AAP
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",Others,Karthikeyan,BSP
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",Others,Satheesan,SUCI
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",Others,Unnikrishnan K N,Independent
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",Others,Rajkumar,Independent
+81,Thrippunithura,Ernakulam,294,"1,87,923","97,210","90,711",Others,Sandeep Rajendraprasad,Independent
+82,Ernakulam,Ernakulam,206,"1,36,223","70,720","65,501",LDF,Sabu George,Indian Socialist Janata Dal
+82,Ernakulam,Ernakulam,206,"1,36,223","70,720","65,501",UDF,T. J. Vinod,INC
+82,Ernakulam,Ernakulam,206,"1,36,223","70,720","65,501",NDA,P.R. Sivasankar,BJP
+82,Ernakulam,Ernakulam,206,"1,36,223","70,720","65,501",Others,Moses Henry Motha,AAP
+82,Ernakulam,Ernakulam,206,"1,36,223","70,720","65,501",Others,Ashokan,Independent
+83,Thrikkakara,Ernakulam,262,"1,76,387","91,640","84,746",LDF,Adv. Pushpa das,CPI(M)
+83,Thrikkakara,Ernakulam,262,"1,76,387","91,640","84,746",UDF,Uma Thomas,INC
+83,Thrikkakara,Ernakulam,262,"1,76,387","91,640","84,746",NDA,Akhil Raj (Akhil Marar),TTP
+83,Thrikkakara,Ernakulam,262,"1,76,387","91,640","84,746",Others,Jose George,AAP
+83,Thrikkakara,Ernakulam,262,"1,76,387","91,640","84,746",Others,Aloysius Kollannur,SDPI
+84,Kunnathunad,Ernakulam,222,"1,88,291","96,384","91,905",LDF,Adv. P. V. Sreenijin,CPI(M)
+84,Kunnathunad,Ernakulam,222,"1,88,291","96,384","91,905",UDF,V. P. Sajeendran,INC
+84,Kunnathunad,Ernakulam,222,"1,88,291","96,384","91,905",NDA,Babu Divakaran,TTP
+84,Kunnathunad,Ernakulam,222,"1,88,291","96,384","91,905",Others,Manikuttan A. T.,BSP
+84,Kunnathunad,Ernakulam,222,"1,88,291","96,384","91,905",Others,Vazhakulam Bhasi,Independent
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",LDF,Sabu K Jacob,Kerala Congress (M)
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",UDF,Anoop Jacob,KC(J)
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",NDA,Jibi Abraham,TTP
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",Others,Eldho Abraham,AAP
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",Others,T C Ramanan,SUCI
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",Others,Renny Mathew,Independent
+85,Piravom,Ernakulam,206,"1,95,421","1,00,927","94,490",Others,Sabu K Eramath,Independent
+86,Muvattupuzha,Ernakulam,203,"1,86,254","94,829","91,420",LDF,N. Arun,CPI
+86,Muvattupuzha,Ernakulam,203,"1,86,254","94,829","91,420",UDF,Dr. Mathew Kuzhalnadan,INC
+86,Muvattupuzha,Ernakulam,203,"1,86,254","94,829","91,420",NDA,Sunny Kadoothazhe,TTP
+86,Muvattupuzha,Ernakulam,203,"1,86,254","94,829","91,420",Others,Roy Arakkal,SDPI
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",LDF,Antony John,CPI(M)
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",UDF,Shibu Thekkumpuram,KEC
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",NDA,Aji Narayanan,BDJS
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",Others,Finto Xavier,RJP
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",Others,Roy Arackal,SDPI
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",Others,Shibu Chalakattu,Independent
+87,Kothamangalam,Ernakulam,191,"1,71,968","87,364","84,604",Others,Shibu Kallekkattu,Independent
+88,Devikulam,Idukki,215,"1,42,265","72,193","70,071",LDF,Adv. A. Raja,CPI(M)
+88,Devikulam,Idukki,215,"1,42,265","72,193","70,071",UDF,F. Raja,INC
+88,Devikulam,Idukki,215,"1,42,265","72,193","70,071",NDA,S. Rajendran,BJP
+88,Devikulam,Idukki,215,"1,42,265","72,193","70,071",Others,Rajendran .V. B,BSP
+88,Devikulam,Idukki,215,"1,42,265","72,193","70,071",Others,Chelladurai .M,Independent
+88,Devikulam,Idukki,215,"1,42,265","72,193","70,071",Others,Selvi,Independent
+89,Udumbanchola,Idukki,201,"1,50,303","76,081","74,219",LDF,K. K. Jayachandran,CPI(M)
+89,Udumbanchola,Idukki,201,"1,50,303","76,081","74,219",UDF,Adv. Senapathi Venu,INC
+89,Udumbanchola,Idukki,201,"1,50,303","76,081","74,219",NDA,Adv. Sangeetha Viswanadhan,BDJS
+89,Udumbanchola,Idukki,201,"1,50,303","76,081","74,219",Others,P.K. Sajeevan,BSP
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",LDF,Cyriac Chazhikadan,Kerala Congress (M)
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",UDF,Apu John Joseph,KEC
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",NDA,Adv. Roy A. Varikkad,TTP
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",Others,Adv. Basil John,AAP
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",Others,Afsal M. B,SDPI
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",Others,P T Varghese,SUCI
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",Others,Ajay V Marar (ajay Unni),Independent
+90,Thodupuzha,Idukki,229,"1,88,495","95,482","93,010",Others,Jomon John,Independent
+91,Idukki,Idukki,207,"1,67,822","84,746","83,076",LDF,Roshi Augustine,Kerala Congress (M)
+91,Idukki,Idukki,207,"1,67,822","84,746","83,076",UDF,Roy K. Paulose,INC
+91,Idukki,Idukki,207,"1,67,822","84,746","83,076",NDA,Adv. Pradeesh Prabha,BDJS
+91,Idukki,Idukki,207,"1,67,822","84,746","83,076",Others,Shijo Antony,BSP
+92,Peerumade,Idukki,224,"1,56,542","79,331","77,210",LDF,K. Salim Kumar,CPI
+92,Peerumade,Idukki,224,"1,56,542","79,331","77,210",UDF,Adv. Syriac Thomas,INC
+92,Peerumade,Idukki,224,"1,56,542","79,331","77,210",NDA,V. Ratheesh,BJP
+92,Peerumade,Idukki,224,"1,56,542","79,331","77,210",Others,Joseph Jacob,AAP
+92,Peerumade,Idukki,224,"1,56,542","79,331","77,210",Others,K Murali,BSP
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",LDF,Jose K. Mani,Kerala Congress (M)
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",UDF,Mani C. Kappan,DCK
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",NDA,Shone George,BJP
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",Others,Adv. Rony Jose Nedumpallil,AAP
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",Others,Santhosh Nadoopparampil,BSP
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",Others,C G Babu,Independent
+93,Pala,Kottayam,217,"1,76,585","90,605","85,980",Others,Santhosh Pulickal,Independent
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",LDF,Nirmala Jimmy,Kerala Congress (M)
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",UDF,Adv. Mons Joseph,KEC
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",NDA,Suresh Ettikunnel,BDJS
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",Others,Dominic Simon,AAP
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",Others,Jijith K Joy,BSP
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",Others,Indu,Independent
+94,Kaduthuruthy,Kottayam,205,"1,75,905","90,148","85,756",Others,M.M.Scaria,Independent
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",LDF,P. Pradeep,CPI
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",UDF,K. Binimon,INC
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",NDA,K. Ajith,BJP
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",Others,Sumam P S,BSP
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",Others,T M Bose,SUCI
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",Others,Adv. P I Jayakumar,Independent
+95,Vaikom,Kottayam,180,"1,55,957","80,006","75,948",Others,Pradeep,Independent
+96,Ettumanoor,Kottayam,177,"1,58,256","80,908","77,347",LDF,V. N. Vasavan,CPI(M)
+96,Ettumanoor,Kottayam,177,"1,58,256","80,908","77,347",UDF,Nattakam Suresh,INC
+96,Ettumanoor,Kottayam,177,"1,58,256","80,908","77,347",NDA,Athira D. Nair,TTP
+96,Ettumanoor,Kottayam,177,"1,58,256","80,908","77,347",Others,Binoy Joseph Kulathunkal,BSP
+96,Ettumanoor,Kottayam,177,"1,58,256","80,908","77,347",Others,Ashna Thambi,SUCI
+96,Ettumanoor,Kottayam,177,"1,58,256","80,908","77,347",Others,Raj Mohan Vettikulangara Unni,Independent
+97,Kottayam,Kottayam,188,"1,49,573","77,583","71,989",LDF,Adv. K. Anilkumar,CPI(M)
+97,Kottayam,Kottayam,188,"1,49,573","77,583","71,989",UDF,Thiruvanchoor Radhakrishnan,INC
+97,Kottayam,Kottayam,188,"1,49,573","77,583","71,989",NDA,P. Anilkumar,BDJS
+97,Kottayam,Kottayam,188,"1,49,573","77,583","71,989",Others,Dr. Selin Philip,AAP
+97,Kottayam,Kottayam,188,"1,49,573","77,583","71,989",Others,Ralesh Chandran,SUCI
+97,Kottayam,Kottayam,188,"1,49,573","77,583","71,989",Others,Shaiju Kurian,Independent
+98,Puthuppally,Kottayam,201,"1,70,254","87,345","82,904",LDF,K. M. Radhakrishnan,CPI(M)
+98,Puthuppally,Kottayam,201,"1,70,254","87,345","82,904",UDF,Adv. Chandy Oommen,INC
+98,Puthuppally,Kottayam,201,"1,70,254","87,345","82,904",NDA,Raveendranath Vakathanam,BJP
+98,Puthuppally,Kottayam,201,"1,70,254","87,345","82,904",Others,Paul P Chacko,BSP
+98,Puthuppally,Kottayam,201,"1,70,254","87,345","82,904",Others,Sabu Mylakkadan,JRP
+98,Puthuppally,Kottayam,201,"1,70,254","87,345","82,904",Others,Rijomon Mathew,Independent
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",LDF,Adv. Job Maichil,Kerala Congress (M)
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",UDF,Vinu Job,KEC
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",NDA,B. Radhakrishna Menon,BJP
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Prof. Dr. Saju Kannanthara,AAP
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Usha Johnson,BSP
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Jose Joseph,JRP
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Althaf Hassan,SDPI
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Aravind V,SUCI
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Dr.Kalki P,Independent
+99,Changanassery,Kottayam,205,"1,62,885","84,329","78,554",Others,Joemon Joseph Srampickal A P J Juman V S,Independent
+100,Kanjirappally,Kottayam,200,"1,77,500","91,358","86,142",LDF,Dr. N. Jayaraj,Kerala Congress (M)
+100,Kanjirappally,Kottayam,200,"1,77,500","91,358","86,142",UDF,Prof. Rony K. Baby,INC
+100,Kanjirappally,Kottayam,200,"1,77,500","91,358","86,142",NDA,Adv. George Kurian,BJP
+100,Kanjirappally,Kottayam,200,"1,77,500","91,358","86,142",Others,Thampi Kavumpadam,BSP
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",LDF,Adv. Sebastian Kulathunkal,Kerala Congress (M)
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",UDF,Adv. Sebastian M.J,INC
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",NDA,P. C. George,BJP
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",Others,Shiny A C,BSP
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",Others,Abhiram Babu,Independent
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",Others,Mayamol K P,Independent
+101,Poonjar,Kottayam,218,"1,84,665","93,296","91,369",Others,Santhosh Joseph,Independent
+102,Aroor,Alappuzha,210,"1,91,465","97,582","93,883",LDF,Daleema Jojo,CPI(M)
+102,Aroor,Alappuzha,210,"1,91,465","97,582","93,883",UDF,Adv. Shanimol Osman,INC
+102,Aroor,Alappuzha,210,"1,91,465","97,582","93,883",NDA,Adv. P.S. Jyothis,BDJS
+102,Aroor,Alappuzha,210,"1,91,465","97,582","93,883",Others,Vayalar Rajeevan,BDP
+102,Aroor,Alappuzha,210,"1,91,465","97,582","93,883",Others,N.K. Sasikumar,SUCI
+102,Aroor,Alappuzha,210,"1,91,465","97,582","93,883",Others,Vipin,Independent
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",LDF,P. Prasad,CPI
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",UDF,K. R. Rajendra Prasad,INC
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",NDA,Adv. Anandaraj T. P,BDJS
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",Others,Adv. Sonnymon K. Mathew,Independent
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",Others,A.P. Prasad S/o Purushothaman,Independent
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",Others,Nandakumar,Independent
+103,Cherthala,Alappuzha,230,"2,06,016","1,06,198","99,816",Others,Rajendra Prasad S/o Prabhakaran,Independent
+104,Alappuzha,Alappuzha,219,"1,91,880","98,288","93,592",LDF,P. P. Chitharanjan,CPI(M)
+104,Alappuzha,Alappuzha,219,"1,91,880","98,288","93,592",UDF,A. D. Thomas,INC
+104,Alappuzha,Alappuzha,219,"1,91,880","98,288","93,592",NDA,M.J. Job,BJP
+104,Alappuzha,Alappuzha,219,"1,91,880","98,288","93,592",Others,Alleppey Sugunan,Independent
+104,Alappuzha,Alappuzha,219,"1,91,880","98,288","93,592",Others,Joseph Chacko,Independent
+104,Alappuzha,Alappuzha,219,"1,91,880","98,288","93,592",Others,Jyothi Abraham,Independent
+105,Ambalappuzha,Alappuzha,195,"1,71,203","87,695","83,506",LDF,H. Salam,CPI(M)
+105,Ambalappuzha,Alappuzha,195,"1,71,203","87,695","83,506",UDF,G. Sudhakaran,Independent (INC Support)
+105,Ambalappuzha,Alappuzha,195,"1,71,203","87,695","83,506",NDA,Arun Anirudhan,BJP
+105,Ambalappuzha,Alappuzha,195,"1,71,203","87,695","83,506",Others,Johnson Mathew,SUCI
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",LDF,Thomas K. Thomas,NCP(SP)
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",UDF,Reji Cheriyan,KEC
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",NDA,Santhosh Santhy,BDJS
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",Others,Joseph Mathew,AAP
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",Others,P.K. Sasi,SUCI
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",Others,Jaisappan Mathai,Independent
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",Others,Joemon Joseph Srampickal A. P. J. Juman V. S.,Independent
+106,Kuttanad,Alappuzha,180,"1,53,981","78,146","75,835",Others,Renju T. R.,Independent
+107,Haripad,Alappuzha,204,"1,84,457","96,584","87,869",LDF,T. T. Jismon,CPI
+107,Haripad,Alappuzha,204,"1,84,457","96,584","87,869",UDF,Ramesh Chennithala,INC
+107,Haripad,Alappuzha,204,"1,84,457","96,584","87,869",NDA,Sandeep Vachaspati,BJP
+107,Haripad,Alappuzha,204,"1,84,457","96,584","87,869",Others,Vidhya V.P,SUCI
+107,Haripad,Alappuzha,204,"1,84,457","96,584","87,869",Others,Soumya V.Sasidharan,Independent
+107,Haripad,Alappuzha,204,"1,84,457","96,584","87,869",Others,Ch. Ramesh,Independent
+108,Kayamkulam,Alappuzha,226,"2,01,394","1,05,248","96,145",LDF,Adv. U. Prathibha,CPI(M)
+108,Kayamkulam,Alappuzha,226,"2,01,394","1,05,248","96,145",UDF,Adv. M. Liju,INC
+108,Kayamkulam,Alappuzha,226,"2,01,394","1,05,248","96,145",NDA,Thambi Mettuthara,BDJS
+109,Mavelikara,Alappuzha,226,"1,92,435","1,01,922","90,510",LDF,M. S. Arun Kumar,CPI(M)
+109,Mavelikara,Alappuzha,226,"1,92,435","1,01,922","90,510",UDF,Adv. Muthara Raj,INC
+109,Mavelikara,Alappuzha,226,"1,92,435","1,01,922","90,510",NDA,Ajimon,BJP
+109,Mavelikara,Alappuzha,226,"1,92,435","1,01,922","90,510",Others,Suresh Nooranad,API
+110,Chengannur,Alappuzha,209,"1,89,866","99,378","90,485",LDF,Saji Cherian,CPI(M)
+110,Chengannur,Alappuzha,209,"1,89,866","99,378","90,485",UDF,Adv. Abi Kuriakose,INC
+110,Chengannur,Alappuzha,209,"1,89,866","99,378","90,485",NDA,M. V. Gopakumar,BJP
+110,Chengannur,Alappuzha,209,"1,89,866","99,378","90,485",Others,B. Praneesh,SUCI
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",LDF,Mathew T. Thomas,Indian Socialist Janata Dal
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",UDF,Adv. Varghese Mammen,KEC
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",NDA,Anoop Antony,BJP
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",Others,Ramesh Chathenkary,BSP
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",Others,Thomas Mammen,Independent
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",Others,Zeen Thomas,Independent
+111,Thiruvalla,Pathanamthitta,239,"1,98,395","1,03,176","95,219",Others,Aju Alex,Independent
+112,Ranni,Pathanamthitta,237,"1,76,015","90,354","85,660",LDF,Adv. Pramod Narayan,Kerala Congress (M)
+112,Ranni,Pathanamthitta,237,"1,76,015","90,354","85,660",UDF,Adv. Pazhakulam Madhu,INC
+112,Ranni,Pathanamthitta,237,"1,76,015","90,354","85,660",NDA,Thomas K. Samuel,TTP
+112,Ranni,Pathanamthitta,237,"1,76,015","90,354","85,660",Others,Sreehari K P,Independent
+113,Aranmula,Pathanamthitta,272,"2,15,168","1,12,005","1,03,163",LDF,Veena George,CPI(M)
+113,Aranmula,Pathanamthitta,272,"2,15,168","1,12,005","1,03,163",UDF,Abin Varkey,INC
+113,Aranmula,Pathanamthitta,272,"2,15,168","1,12,005","1,03,163",NDA,Kummanam Rajasekharan,BJP
+113,Aranmula,Pathanamthitta,272,"2,15,168","1,12,005","1,03,163",Others,Omalloor Ramachandran,API
+113,Aranmula,Pathanamthitta,272,"2,15,168","1,12,005","1,03,163",Others,Prabhakaran V R,BSP
+113,Aranmula,Pathanamthitta,272,"2,15,168","1,12,005","1,03,163",Others,Radhamani,SUCI
+114,Konni,Pathanamthitta,228,"1,89,366","99,237","90,128",LDF,Adv. K. U. Jenish Kumar,CPI(M)
+114,Konni,Pathanamthitta,228,"1,89,366","99,237","90,128",UDF,Prof Satheesh Kochuparambil,INC
+114,Konni,Pathanamthitta,228,"1,89,366","99,237","90,128",NDA,T. P. Sundareshan,BDJS
+114,Konni,Pathanamthitta,228,"1,89,366","99,237","90,128",Others,Adv Varughese Oommen,Independent
+115,Adoor,Pathanamthitta,231,"2,01,200","1,06,183","95,014",LDF,Priji Sasidharan,CPI
+115,Adoor,Pathanamthitta,231,"2,01,200","1,06,183","95,014",UDF,Adv. C V Santhakumar,INC
+115,Adoor,Pathanamthitta,231,"2,01,200","1,06,183","95,014",NDA,Adv. Pandalam Prathapan,BJP
+115,Adoor,Pathanamthitta,231,"2,01,200","1,06,183","95,014",Others,Sivakumar C S,BSP
+116,Karunagappally,Kollam,214,"2,14,513","1,10,168","1,04,343",LDF,Adv.M.S. Thara,CPI
+116,Karunagappally,Kollam,214,"2,14,513","1,10,168","1,04,343",UDF,C. R. Mahesh,INC
+116,Karunagappally,Kollam,214,"2,14,513","1,10,168","1,04,343",NDA,V. S. Jithin Dev,BJP
+116,Karunagappally,Kollam,214,"2,14,513","1,10,168","1,04,343",Others,Latheef,SDPI
+116,Karunagappally,Kollam,214,"2,14,513","1,10,168","1,04,343",Others,Twinkle Prabhakaran,SUCI
+117,Chavara,Kollam,188,"1,78,798","91,726","87,070",LDF,Dr. Sujith Vijayanpillai,Independent (CPI(M) support)
+117,Chavara,Kollam,188,"1,78,798","91,726","87,070",UDF,Shibu Baby John,RSP
+117,Chavara,Kollam,188,"1,78,798","91,726","87,070",NDA,K. R. Rajesh,BJP
+118,Kunnathur,Kollam,227,"2,05,694","1,07,546","98,146",LDF,Kovoor Kunjumon,RSP(L)
+118,Kunnathur,Kollam,227,"2,05,694","1,07,546","98,146",UDF,Ullas Kovoor,RSP
+118,Kunnathur,Kollam,227,"2,05,694","1,07,546","98,146",NDA,Raji Prasad,BJP
+118,Kunnathur,Kollam,227,"2,05,694","1,07,546","98,146",Others,Sasidharan,SUCI
+118,Kunnathur,Kollam,227,"2,05,694","1,07,546","98,146",Others,Manthara Velayudhan,Independent
+119,Kottarakkara,Kollam,204,"1,93,272","1,01,667","91,605",LDF,K. N. Balagopal,CPI(M)
+119,Kottarakkara,Kollam,204,"1,93,272","1,01,667","91,605",UDF,Adv. P. Aisha Potty,INC
+119,Kottarakkara,Kollam,204,"1,93,272","1,01,667","91,605",NDA,R. Reshmi,BJP
+119,Kottarakkara,Kollam,204,"1,93,272","1,01,667","91,605",Others,Mamachan D,AAP
+119,Kottarakkara,Kollam,204,"1,93,272","1,01,667","91,605",Others,Wilfred Zacharias,BSP
+119,Kottarakkara,Kollam,204,"1,93,272","1,01,667","91,605",Others,G Suresh,EPI
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",LDF,K. B. Ganesh Kumar,Kerala Congress (B)
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",UDF,Jyothikumar chamakkala,INC
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",NDA,Anil Pilla,TTP
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",Others,Aneesh Aneesh,Anna DHRM
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",Others,Vipinkumar V,BSP
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",Others,Genash Kumar,Independent
+120,Pathanapuram,Kollam,196,"1,79,783","94,551","85,231",Others,Jyothish Kumar M,Independent
+121,Punalur,Kollam,220,"1,97,346","1,03,470","93,874",LDF,C. Ajaya Prasad,CPI
+121,Punalur,Kollam,220,"1,97,346","1,03,470","93,874",UDF,Noushad Yusuf,IUML
+121,Punalur,Kollam,220,"1,97,346","1,03,470","93,874",NDA,Adv. B. Raghunathan Pillai,TTP
+121,Punalur,Kollam,220,"1,97,346","1,03,470","93,874",Others,Jose Saranath,BSP
+121,Punalur,Kollam,220,"1,97,346","1,03,470","93,874",Others,Nedumoncavu Gopalakrishnan,EPI
+121,Punalur,Kollam,220,"1,97,346","1,03,470","93,874",Others,K. Mahesh,SUCI
+122,Chadayamangalam,Kollam,204,"2,01,716","1,05,999","95,716",LDF,J. Chinchu Rani,CPI
+122,Chadayamangalam,Kollam,204,"2,01,716","1,05,999","95,716",UDF,M. M. Naseer,INC
+122,Chadayamangalam,Kollam,204,"2,01,716","1,05,999","95,716",NDA,R. S. Arun Raj,BJP
+122,Chadayamangalam,Kollam,204,"2,01,716","1,05,999","95,716",Others,Aji Kadasseri,Anna DHRM
+122,Chadayamangalam,Kollam,204,"2,01,716","1,05,999","95,716",Others,Sharafath Mallam,SDPI
+122,Chadayamangalam,Kollam,204,"2,01,716","1,05,999","95,716",Others,G. Jayan Moonlight Chithara,Independent
+123,Kundara,Kollam,226,"2,06,464","1,07,682","98,778",LDF,S. L. Sajikumar,CPI(M)
+123,Kundara,Kollam,226,"2,06,464","1,07,682","98,778",UDF,P. C. Vishnunadh,INC
+123,Kundara,Kollam,226,"2,06,464","1,07,682","98,778",NDA,Robin Radhakrishnan (Robin RB),BJP
+123,Kundara,Kollam,226,"2,06,464","1,07,682","98,778",Others,Lathika C,BSP
+123,Kundara,Kollam,226,"2,06,464","1,07,682","98,778",Others,Rahul R,SUCI
+123,Kundara,Kollam,226,"2,06,464","1,07,682","98,778",Others,Riyas M,Independent
+124,Kollam,Kollam,190,"1,64,541","85,285","79,254",LDF,S. Jayamohan,CPI(M)
+124,Kollam,Kollam,190,"1,64,541","85,285","79,254",UDF,Adv. Bindhu Krishna,INC
+124,Kollam,Kollam,190,"1,64,541","85,285","79,254",NDA,Dr. N. Prathap Kumar,BJP
+124,Kollam,Kollam,190,"1,64,541","85,285","79,254",Others,Adv. Sinu L R,AAP
+124,Kollam,Kollam,190,"1,64,541","85,285","79,254",Others,Mylode Sudhan,BSP
+125,Eravipuram,Kollam,191,"1,68,865","87,584","81,278",LDF,M. Noushad,CPI(M)
+125,Eravipuram,Kollam,191,"1,68,865","87,584","81,278",UDF,Adv. Vishnu Mohan,RSP
+125,Eravipuram,Kollam,191,"1,68,865","87,584","81,278",NDA,Saji D. Anand,BDJS
+125,Eravipuram,Kollam,191,"1,68,865","87,584","81,278",Others,Firoz S R,Independent
+125,Eravipuram,Kollam,191,"1,68,865","87,584","81,278",Others,Noushad A S/o.Aliyaru Kunju,Independent
+126,Chathannoor,Kollam,196,"1,77,000","94,126","82,872",LDF,Adv. R.Rajendran,CPI
+126,Chathannoor,Kollam,196,"1,77,000","94,126","82,872",UDF,Sooraj Ravi,INC
+126,Chathannoor,Kollam,196,"1,77,000","94,126","82,872",NDA,B. B. Gopakumar,BJP
+126,Chathannoor,Kollam,196,"1,77,000","94,126","82,872",Others,Arun A,AAP
+126,Chathannoor,Kollam,196,"1,77,000","94,126","82,872",Others,Sindhu Puthenkulam,Anna DHRM
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",LDF,Adv. V Joy,CPI(M)
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",UDF,Varkala Kahar,INC
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",NDA,Adv. Smitha Sundaresan,BJP
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",Others,Vinod Elakamon,Anna DHRM
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",Others,Raju S Kottarakonam,BSP
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",Others,Vivekanandan K,Independent
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",Others,Harikrishnan S G,Independent
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",Others,M. K. Kannan,Independent
+127,Varkala,Thiruvananthapuram,202,"1,83,280","97,085","86,192",Others,Säju,Independent
+128,Attingal,Thiruvananthapuram,213,"1,97,945","1,06,201","91,741",LDF,O. S. Ambika,CPI(M)
+128,Attingal,Thiruvananthapuram,213,"1,97,945","1,06,201","91,741",UDF,Santhosh Bhadran,RSP
+128,Attingal,Thiruvananthapuram,213,"1,97,945","1,06,201","91,741",NDA,P. Sudheer,BJP
+128,Attingal,Thiruvananthapuram,213,"1,97,945","1,06,201","91,741",Others,Sunitha Kilimanoor,Anna DHRM
+128,Attingal,Thiruvananthapuram,213,"1,97,945","1,06,201","91,741",Others,S. Sujithra,BSP
+128,Attingal,Thiruvananthapuram,213,"1,97,945","1,06,201","91,741",Others,Jayarajan M,SDPI
+129,Chirayinkeezhu,Thiruvananthapuram,212,"1,95,296","1,04,637","90,651",LDF,Manoj B Edamana,CPI
+129,Chirayinkeezhu,Thiruvananthapuram,212,"1,95,296","1,04,637","90,651",UDF,Ramya Haridas,INC
+129,Chirayinkeezhu,Thiruvananthapuram,212,"1,95,296","1,04,637","90,651",NDA,B. S. Anoop,BJP
+129,Chirayinkeezhu,Thiruvananthapuram,212,"1,95,296","1,04,637","90,651",Others,Anoop Alappuramkunnu,Anna DHRM
+129,Chirayinkeezhu,Thiruvananthapuram,212,"1,95,296","1,04,637","90,651",Others,Ramasamy Sasi,BSP
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",LDF,G. R. Anil,CPI
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",UDF,Meenankal Kumar,INC
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",NDA,Yuvaraj Gokul,BJP
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",Others,Shibu G,Anna DHRM
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",Others,Sujilal B G,BSP
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",Others,Siyad Kandala,SDPI
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",Others,Vembayam Yesudas,Independent
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",Others,Anvar Sadath,Independent
+130,Nedumangad,Thiruvananthapuram,252,"1,98,042","1,03,827","94,214",Others,Kumar,Independent
+131,Vamanapuram,Thiruvananthapuram,231,"1,87,828","99,552","88,274",LDF,D. K. Murali,CPI(M)
+131,Vamanapuram,Thiruvananthapuram,231,"1,87,828","99,552","88,274",UDF,Sudheer Sha Palode,INC
+131,Vamanapuram,Thiruvananthapuram,231,"1,87,828","99,552","88,274",NDA,Venu Karanavar,BDJS
+131,Vamanapuram,Thiruvananthapuram,231,"1,87,828","99,552","88,274",Others,Ratheesh R,Anna DHRM
+131,Vamanapuram,Thiruvananthapuram,231,"1,87,828","99,552","88,274",Others,Vipinlal V A,BSP
+131,Vamanapuram,Thiruvananthapuram,231,"1,87,828","99,552","88,274",Others,Muraleedharan G Nair,Independent
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",LDF,Kadakampally Surendran,CPI(M)
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",UDF,Adv. T. Sarathchandra Prasad,INC
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",NDA,V. Muraleedharan,BJP
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",Others,Deebika Karimanal,Anna DHRM
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",Others,T. S. Rajan,BSP
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",Others,Sreekantan Nair V.,Independent
+132,Kazhakkoottam,Thiruvananthapuram,216,"1,64,561","85,874","78,687",Others,K. Surendran,Independent
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",LDF,Adv. V.K Prasanth,CPI(M)
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",UDF,K. Muraleedharan,INC
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",NDA,R. Sreelekha,BJP
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",Others,N. Murali,BSP
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",Others,Emil B.S,SUCI
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",Others,Sreekantan Nair V,Independent
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",Others,Muralidharan. P S/o. K. Ponnan,Independent
+133,Vattiyoorkavu,Thiruvananthapuram,209,"1,65,272","86,696","78,573",Others,Prasanth. K S/o. Karunakaran.C,Independent
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",LDF,Sudheer Karamana,Independent (CPI(M) support)
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",UDF,C. P. John,CMP
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",NDA,Karamana Jayan,BJP
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,Samin Sathyadas,AAP
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,Adv. Sen,BSP
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,Karthika Devi M,JRP
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,A Saboora,SUCI
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,Suresh Kumar,Independent
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,Bindhu Menon L R,Independent
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,Manomohan,Independent
+134,Thiruvananthapuram,Thiruvananthapuram,230,"1,58,545","82,297","76,234",Others,P. K. Pradeep Kumar,Independent
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",LDF,V. Shivankutty,CPI(M)
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",UDF,Adv. KS Sabarinathan,INC
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",NDA,Rajeev Chandrasekhar,BJP
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Vinu K,AAP
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Karamana Prasad,SUCI
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Subi S M,TFIP
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Kamaleswaram Hari,Independent
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Madanan S,Independent
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Rajeev Kumar G S,Independent
+135,Nemom,Thiruvananthapuram,209,"1,71,178","88,504","82,666",Others,Sasikala,Independent
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",LDF,Adv. G. Steephen,CPI(M)
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",UDF,V. S. Sivakumar,INC
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",NDA,Vivek Gopan,BJP
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",Others,Santhosh Kumar. S,BSP
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",Others,V. S. Sivakumar S/o Sivadasan,Independent
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",Others,Adv. S. Sivakumar S/o Sadasivan,Independent
+136,Aruvikkara,Thiruvananthapuram,237,"1,81,308","95,210","86,096",Others,R. Steephen S/o Rafi,Independent
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",LDF,C. K. Hareendran,CPI(M)
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",UDF,Neyyattinkara Sanal,INC
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",NDA,Adv. Gireesh Neyyar,BJP
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",Others,Deepumon N,AAP
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",Others,Adv. Dhanuvachapuram Thankachan,BSP
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",Others,Simiyon L P,Independent
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",Others,S Robinson E Nadar,Independent
+137,Parassala,Thiruvananthapuram,257,"1,95,648","1,00,643","95,004",Others,Shaju Paliyodu,Independent
+138,Kattakkada,Thiruvananthapuram,222,"1,77,094","92,064","85,026",LDF,Adv. I. B. Satheesh,CPI(M)
+138,Kattakkada,Thiruvananthapuram,222,"1,77,094","92,064","85,026",UDF,M. R. Baiju,INC
+138,Kattakkada,Thiruvananthapuram,222,"1,77,094","92,064","85,026",NDA,P. K. Krishnadas,BJP
+138,Kattakkada,Thiruvananthapuram,222,"1,77,094","92,064","85,026",Others,Nobil M. D,BSP
+138,Kattakkada,Thiruvananthapuram,222,"1,77,094","92,064","85,026",Others,Adv. Jayakumar Theertham,CPIML Liberation
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",LDF,Bhagat Rufus,Independent (CPI(M) support)
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",UDF,Adv. M. Vincent,INC
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",NDA,T. N. Suresh,BJP
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",Others,Manoj S.P,AAP
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",Others,Kattachalkuzhi.M.Sugathan,SRP
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",Others,Venganoor Ashokan,Independent
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",Others,Adv. Sabu.S.Philip,Independent
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",Others,Kiran S Pillai,Independent
+139,Kovalam,Thiruvananthapuram,270,"2,01,200","1,02,875","98,323",Others,N.Jayarajan,Independent
+140,Neyyattinkara,Thiruvananthapuram,214,"1,67,377","85,199","82,177",LDF,K. Ansalan,CPI(M)
+140,Neyyattinkara,Thiruvananthapuram,214,"1,67,377","85,199","82,177",UDF,N. Sakthan,INC
+140,Neyyattinkara,Thiruvananthapuram,214,"1,67,377","85,199","82,177",NDA,S. Rajasekharan Nair,BJP
+140,Neyyattinkara,Thiruvananthapuram,214,"1,67,377","85,199","82,177",Others,Surendranathan. K,BSP
+140,Neyyattinkara,Thiruvananthapuram,214,"1,67,377","85,199","82,177",Others,Bibin S.B,Independent

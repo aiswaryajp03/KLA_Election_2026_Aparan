@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KLA 2026 – First Name Clash Dashboard</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #1a1a1a; --card: #242424; --card2: #2c2c2c; --border: #333;
+    --text: #e8e8e8; --muted: #888; --accent: #d4a853;
+    --ldf: #e05252; --udf: #5b9cf5; --nda: #f0a030; --others: #777;
+    --ldf-bg: #2e1414; --udf-bg: #141e2e; --nda-bg: #2e2014; --others-bg: #252525;
+  }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; min-height: 100vh; }
+
+  /* HEADER */
+  .header { padding: 22px 28px 18px; border-bottom: 1px solid var(--border); background: #1e1e1e; }
+  .header h1 { font-size: 21px; font-weight: 700; letter-spacing: -0.3px; }
+  .header p { font-size: 13px; color: var(--muted); margin-top: 4px; }
+
+  /* FILTERS */
+  .filters { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; padding: 14px 28px; border-bottom: 1px solid var(--border); background: #1c1c1c; }
+  .filter-group { display: flex; flex-direction: column; gap: 5px; }
+  .filter-group label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600; }
+  select, .search-input {
+    background: var(--card); border: 1px solid var(--border); color: var(--text);
+    padding: 8px 12px; border-radius: 7px; font-size: 13px;
+    outline: none; transition: border-color 0.15s;
+  }
+  select {
+    padding-right: 32px; min-width: 190px; cursor: pointer; appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23777' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center;
+  }
+  select:focus, .search-input:focus { border-color: #555; }
+  .search-input { min-width: 220px; }
+  .search-input::placeholder { color: #555; }
+
+  /* STATS BAR */
+  .stats { display: flex; flex-wrap: wrap; gap: 32px; padding: 16px 28px; border-bottom: 1px solid var(--border); background: #1a1a1a; }
+  .stat { display: flex; flex-direction: column; gap: 2px; }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-value { font-size: 30px; font-weight: 700; line-height: 1.1; }
+  .stat-value.accent { color: var(--accent); }
+  .stat-chip {
+    display: inline-flex; align-items: center; padding: 5px 13px; margin-top: 4px;
+    border-radius: 20px; border: 1px solid var(--border); background: var(--card2);
+    font-size: 12px; font-weight: 500; color: var(--text);
+  }
+
+  /* GRID */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(430px, 1fr)); gap: 14px; padding: 20px 28px; }
+
+  /* CARD */
+  .const-card { background: var(--card); border: 1px solid var(--border); border-radius: 11px; overflow: hidden; transition: border-color 0.15s; }
+  .const-card:hover { border-color: #444; }
+
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; padding: 15px 16px 11px; }
+  .card-title { font-size: 16px; font-weight: 700; color: var(--text); }
+  .card-district { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .card-clash-count { text-align: right; }
+  .card-clash-num { font-size: 20px; font-weight: 700; color: var(--text); line-height: 1; }
+  .card-clash-label { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* CLASH GROUP */
+  .clash-group { padding: 10px 16px 13px; border-top: 1px solid var(--border); }
+  .clash-name-row { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+  .clash-badge {
+    padding: 3px 11px; border-radius: 20px; font-size: 12px; font-weight: 600;
+    background: #2e2e2e; color: var(--text); border: 1px solid #404040;
+  }
+  .clash-count-label { font-size: 12px; color: var(--muted); }
+
+  /* CANDIDATE ROW */
+  .candidate-row { display: flex; align-items: center; justify-content: space-between; padding: 5px 0; gap: 8px; }
+  .cand-left { display: flex; align-items: center; gap: 9px; flex: 1; min-width: 0; }
+  .cand-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot-LDF { background: var(--ldf); }
+  .dot-UDF { background: var(--udf); }
+  .dot-NDA { background: var(--nda); }
+  .dot-Others { background: #555; }
+  .cand-name { font-size: 13px; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cand-right { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
+  .party-name { font-size: 11px; color: var(--muted); white-space: nowrap; max-width: 120px; overflow: hidden; text-overflow: ellipsis; }
+  .alliance-pill {
+    font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 5px;
+    border: 1px solid; white-space: nowrap; letter-spacing: 0.3px;
+  }
+  .pill-LDF { color: var(--ldf); border-color: var(--ldf); background: var(--ldf-bg); }
+  .pill-UDF { color: var(--udf); border-color: var(--udf); background: var(--udf-bg); }
+  .pill-NDA { color: var(--nda); border-color: var(--nda); background: var(--nda-bg); }
+  .pill-Others { color: var(--others); border-color: #404040; background: var(--others-bg); }
+
+  /* EMPTY / NO RESULTS */
+  .empty-state { grid-column: 1 / -1; padding: 70px 20px; text-align: center; }
+  .empty-state p { font-size: 15px; color: var(--muted); }
+
+  /* RESPONSIVE */
+  @media (max-width: 640px) {
+    .grid { grid-template-columns: 1fr; padding: 12px 14px; }
+    .header, .filters, .stats { padding-left: 14px; padding-right: 14px; }
+    select, .search-input { min-width: 100%; }
+    .filters { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>KLA 2026 — Candidate First Name Clash Finder</h1>
+  <p>Identifying candidates with duplicate first names within the same constituency &nbsp;·&nbsp; Initials excluded from matching</p>
+</div>
+
+<div class="filters">
+  <div class="filter-group">
+    <label>District</label>
+    <select id="districtFilter" onchange="onDistrictChange()">
+      <option value="">All districts</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Constituency</label>
+    <select id="constFilter" onchange="render()">
+      <option value="">All constituencies</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Search</label>
+    <input type="text" id="searchInput" class="search-input" placeholder="Search name or candidate..." oninput="render()">
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <span class="stat-label">Constituencies affected</span>
+    <span class="stat-value accent" id="statConst">–</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Clashing names found</span>
+    <span class="stat-value" id="statNames">–</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Candidates involved</span>
+    <span class="stat-value" id="statCands">–</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Viewing mode</span>
+    <span class="stat-chip">First name clashes</span>
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<script>
+const DATA = {"clashGroups": [{"constituency": "Alathur", "district": "Palakkad", "clash_count": 1, "clashes": [{"clash_name": "Febin", "clash_initial": "F", "count": 2, "candidates": [{"name": "K. M. Febin", "party": "INC", "alliance": "UDF", "first_name": "febin"}, {"name": "B Febin S/o Balan K.C.", "party": "Independent", "alliance": "Others", "first_name": "febin"}]}]}, {"constituency": "Aruvikkara", "district": "Thiruvananthapuram", "clash_count": 2, "clashes": [{"clash_name": "Steephen", "clash_initial": "S", "count": 2, "candidates": [{"name": "G. Steephen", "party": "CPI(M)", "alliance": "LDF", "first_name": "steephen"}, {"name": "R. Steephen S/o Rafi", "party": "Independent", "alliance": "Others", "first_name": "steephen"}]}, {"clash_name": "Sivakumar", "clash_initial": "S", "count": 3, "candidates": [{"name": "V. S. Sivakumar", "party": "INC", "alliance": "UDF", "first_name": "sivakumar"}, {"name": "V. S. Sivakumar S/o Sivadasan", "party": "Independent", "alliance": "Others", "first_name": "sivakumar"}, {"name": "Adv. S. Sivakumar S/o Sadasivan", "party": "Independent", "alliance": "Others", "first_name": "sivakumar"}]}]}, {"constituency": "Azhikode", "district": "Kannur", "clash_count": 2, "clashes": [{"clash_name": "Sumesh", "clash_initial": "S", "count": 3, "candidates": [{"name": "K. V. Sumesh", "party": "CPI(M)", "alliance": "LDF", "first_name": "sumesh"}, {"name": "Sumesh Kumar. K", "party": "Independent", "alliance": "Others", "first_name": "sumesh"}, {"name": "Sumesh. T. P", "party": "Independent", "alliance": "Others", "first_name": "sumesh"}]}, {"clash_name": "Kareem", "clash_initial": "K", "count": 2, "candidates": [{"name": "Kareem Cheleri", "party": "IUML", "alliance": "UDF", "first_name": "kareem"}, {"name": "Kareem Chandroth", "party": "Independent", "alliance": "Others", "first_name": "kareem"}]}]}, {"constituency": "Balussery", "district": "Kozhikode", "clash_count": 1, "clashes": [{"clash_name": "Sooraj", "clash_initial": "S", "count": 2, "candidates": [{"name": "V. T. Sooraj", "party": "INC", "alliance": "UDF", "first_name": "sooraj"}, {"name": "Sooraj K S/o Asokan", "party": "Independent", "alliance": "Others", "first_name": "sooraj"}]}]}, {"constituency": "Beypore", "district": "Kozhikode", "clash_count": 1, "clashes": [{"clash_name": "Anver", "clash_initial": "A", "count": 3, "candidates": [{"name": "Anver S/o Enunni", "party": "Independent", "alliance": "Others", "first_name": "anver"}, {"name": "Anver S/o Moideenkoya", "party": "Independent", "alliance": "Others", "first_name": "anver"}, {"name": "Anver S/o Sulaikha K P", "party": "Independent", "alliance": "Others", "first_name": "anver"}]}]}, {"constituency": "Chalakudy", "district": "Thrissur", "clash_count": 1, "clashes": [{"clash_name": "Biju", "clash_initial": "B", "count": 2, "candidates": [{"name": "Adv Biju Chirayath", "party": "Kerala Congress (M)", "alliance": "LDF", "first_name": "biju"}, {"name": "A D Biju", "party": "Independent", "alliance": "Others", "first_name": "biju"}]}]}, {"constituency": "Cherthala", "district": "Alappuzha", "clash_count": 1, "clashes": [{"clash_name": "Rajendra", "clash_initial": "R", "count": 2, "candidates": [{"name": "K. R. Rajendra Prasad", "party": "INC", "alliance": "UDF", "first_name": "rajendra"}, {"name": "Rajendra Prasad S/o Prabhakaran", "party": "Independent", "alliance": "Others", "first_name": "rajendra"}]}]}, {"constituency": "Chirayinkeezhu", "district": "Thiruvananthapuram", "clash_count": 1, "clashes": [{"clash_name": "Anoop", "clash_initial": "A", "count": 2, "candidates": [{"name": "B. S. Anoop", "party": "BJP", "alliance": "NDA", "first_name": "anoop"}, {"name": "Anoop Alappuramkunnu", "party": "Anna DHRM", "alliance": "Others", "first_name": "anoop"}]}]}, {"constituency": "Chittur", "district": "Palakkad", "clash_count": 2, "clashes": [{"clash_name": "Murugadas", "clash_initial": "M", "count": 2, "candidates": [{"name": "Adv V. Murugadas", "party": "Indian Socialist Janata Dal", "alliance": "LDF", "first_name": "murugadas"}, {"name": "Murugadas. P. S/o Pazhaniappa Mudaliyaar", "party": "Independent", "alliance": "Others", "first_name": "murugadas"}]}, {"clash_name": "Sumesh", "clash_initial": "S", "count": 2, "candidates": [{"name": "Sumesh Achuthan", "party": "INC", "alliance": "UDF", "first_name": "sumesh"}, {"name": "Sumesh C", "party": "Independent", "alliance": "Others", "first_name": "sumesh"}]}]}, {"constituency": "Devikulam", "district": "Idukki", "clash_count": 1, "clashes": [{"clash_name": "Rajendran", "clash_initial": "R", "count": 2, "candidates": [{"name": "S. Rajendran", "party": "BJP", "alliance": "NDA", "first_name": "rajendran"}, {"name": "Rajendran .V. B", "party": "BSP", "alliance": "Others", "first_name": "rajendran"}]}]}, {"constituency": "Eravipuram", "district": "Kollam", "clash_count": 1, "clashes": [{"clash_name": "Noushad", "clash_initial": "N", "count": 2, "candidates": [{"name": "M. Noushad", "party": "CPI(M)", "alliance": "LDF", "first_name": "noushad"}, {"name": "Noushad A S/o.Aliyaru Kunju", "party": "Independent", "alliance": "Others", "first_name": "noushad"}]}]}, {"constituency": "Irikkur", "district": "Kannur", "clash_count": 1, "clashes": [{"clash_name": "Mathew", "clash_initial": "M", "count": 2, "candidates": [{"name": "Mathew Kunnappally", "party": "Kerala Congress (M)", "alliance": "LDF", "first_name": "mathew"}, {"name": "M. J. Mathew", "party": "SDPI", "alliance": "Others", "first_name": "mathew"}]}]}, {"constituency": "Kalamassery", "district": "Ernakulam", "clash_count": 1, "clashes": [{"clash_name": "Rajeev", "clash_initial": "R", "count": 2, "candidates": [{"name": "P. Rajeev", "party": "CPI(M)", "alliance": "LDF", "first_name": "rajeev"}, {"name": "Rajeev S/o Vareed", "party": "Independent", "alliance": "Others", "first_name": "rajeev"}]}]}, {"constituency": "Kalliasseri", "district": "Kannur", "clash_count": 1, "clashes": [{"clash_name": "Rajeevan", "clash_initial": "R", "count": 2, "candidates": [{"name": "Adv. Rajeevan Kappacheri", "party": "INC", "alliance": "UDF", "first_name": "rajeevan"}, {"name": "Rajeevan Kannoth S/o Kammaran", "party": "Independent", "alliance": "Others", "first_name": "rajeevan"}]}]}, {"constituency": "Kasaragod", "district": "Kasaragod", "clash_count": 1, "clashes": [{"clash_name": "Shanavas", "clash_initial": "S", "count": 2, "candidates": [{"name": "Shanavas Padhoor", "party": "Independent (INL Support)", "alliance": "LDF", "first_name": "shanavas"}, {"name": "Shanavas A A", "party": "Independent", "alliance": "Others", "first_name": "shanavas"}]}]}, {"constituency": "Koduvally", "district": "Kozhikode", "clash_count": 2, "clashes": [{"clash_name": "Saleem", "clash_initial": "S", "count": 3, "candidates": [{"name": "Saleem Madavoor", "party": "Independent (CPI(M) support)", "alliance": "LDF", "first_name": "saleem"}, {"name": "Saleem C K", "party": "Independent", "alliance": "Others", "first_name": "saleem"}, {"name": "Saleem Muttanchery", "party": "Independent", "alliance": "Others", "first_name": "saleem"}]}, {"clash_name": "Firose", "clash_initial": "F", "count": 2, "candidates": [{"name": "Firose K C S/o Moitheenkutty", "party": "Independent", "alliance": "Others", "first_name": "firose"}, {"name": "Firose S/o Aboobacker Musaliar", "party": "Independent", "alliance": "Others", "first_name": "firose"}]}]}, {"constituency": "Kothamangalam", "district": "Ernakulam", "clash_count": 1, "clashes": [{"clash_name": "Shibu", "clash_initial": "S", "count": 3, "candidates": [{"name": "Shibu Thekkumpuram", "party": "KEC", "alliance": "UDF", "first_name": "shibu"}, {"name": "Shibu Chalakattu", "party": "Independent", "alliance": "Others", "first_name": "shibu"}, {"name": "Shibu Kallekkattu", "party": "Independent", "alliance": "Others", "first_name": "shibu"}]}]}, {"constituency": "Kottakkal", "district": "Malappuram", "clash_count": 1, "clashes": [{"clash_name": "Preethi", "clash_initial": "P", "count": 2, "candidates": [{"name": "K. Preethi", "party": "CPI(M)", "alliance": "LDF", "first_name": "preethi"}, {"name": "Preethi Kp", "party": "Independent", "alliance": "Others", "first_name": "preethi"}]}]}, {"constituency": "Kottayam", "district": "Kottayam", "clash_count": 1, "clashes": [{"clash_name": "Anilkumar", "clash_initial": "A", "count": 2, "candidates": [{"name": "K. Anilkumar", "party": "CPI(M)", "alliance": "LDF", "first_name": "anilkumar"}, {"name": "P. Anilkumar", "party": "BDJS", "alliance": "NDA", "first_name": "anilkumar"}]}]}, {"constituency": "Koyilandy", "district": "Kozhikode", "clash_count": 2, "clashes": [{"clash_name": "Dasan", "clash_initial": "D", "count": 2, "candidates": [{"name": "K. Dasan", "party": "CPI(M)", "alliance": "LDF", "first_name": "dasan"}, {"name": "Dasan", "party": "Independent", "alliance": "Others", "first_name": "dasan"}]}, {"clash_name": "Praveen", "clash_initial": "P", "count": 3, "candidates": [{"name": "K. Praveen Kumar", "party": "INC", "alliance": "UDF", "first_name": "praveen"}, {"name": "Praveen", "party": "Independent", "alliance": "Others", "first_name": "praveen"}, {"name": "Praveen Kumar", "party": "Independent", "alliance": "Others", "first_name": "praveen"}]}]}, {"constituency": "Kozhikode North", "district": "Kozhikode", "clash_count": 1, "clashes": [{"clash_name": "Jayanth", "clash_initial": "J", "count": 3, "candidates": [{"name": "K. Jayanth", "party": "INC", "alliance": "UDF", "first_name": "jayanth"}, {"name": "Jayanth Kumar", "party": "Independent", "alliance": "Others", "first_name": "jayanth"}, {"name": "Jayanth S", "party": "Independent", "alliance": "Others", "first_name": "jayanth"}]}]}, {"constituency": "Kunnamangalam", "district": "Kozhikode", "clash_count": 1, "clashes": [{"clash_name": "Rahim", "clash_initial": "R", "count": 2, "candidates": [{"name": "P. T. A. Rahim", "party": "Independent (CPI(M) support)", "alliance": "LDF", "first_name": "rahim"}, {"name": "Rahim", "party": "Independent", "alliance": "Others", "first_name": "rahim"}]}]}, {"constituency": "Kuthuparamba", "district": "Kannur", "clash_count": 2, "clashes": [{"clash_name": "Praveen", "clash_initial": "P", "count": 2, "candidates": [{"name": "P. K. Praveen", "party": "RJD", "alliance": "LDF", "first_name": "praveen"}, {"name": "Praveen Kumar", "party": "Independent", "alliance": "Others", "first_name": "praveen"}]}, {"clash_name": "Jayanthi", "clash_initial": "J", "count": 2, "candidates": [{"name": "Jayanthi Rajan", "party": "IUML", "alliance": "UDF", "first_name": "jayanthi"}, {"name": "Jayanthi", "party": "Independent", "alliance": "Others", "first_name": "jayanthi"}]}]}, {"constituency": "Manalur", "district": "Thrissur", "clash_count": 1, "clashes": [{"clash_name": "Prathapan", "clash_initial": "P", "count": 2, "candidates": [{"name": "T. N. Prathapan", "party": "INC", "alliance": "UDF", "first_name": "prathapan"}, {"name": "Prathapan Divakaran", "party": "Independent", "alliance": "Others", "first_name": "prathapan"}]}]}, {"constituency": "Manjeshwaram", "district": "Kasaragod", "clash_count": 2, "clashes": [{"clash_name": "Surendran", "clash_initial": "S", "count": 2, "candidates": [{"name": "K. Surendran", "party": "BJP", "alliance": "NDA", "first_name": "surendran"}, {"name": "D Surendran Nair", "party": "Independent", "alliance": "Others", "first_name": "surendran"}]}, {"clash_name": "Mohammed", "clash_initial": "M", "count": 2, "candidates": [{"name": "Mohammed Ashraf", "party": "Independent", "alliance": "Others", "first_name": "mohammed"}, {"name": "Mohammed Ashraf K A", "party": "Independent", "alliance": "Others", "first_name": "mohammed"}]}]}, {"constituency": "Mankada", "district": "Malappuram", "clash_count": 1, "clashes": [{"clash_name": "Kunnath", "clash_initial": "K", "count": 2, "candidates": [{"name": "Kunnath Mohamed S/o Ali Haji", "party": "Independent (CPI(M) support)", "alliance": "LDF", "first_name": "kunnath"}, {"name": "Kunnath Muhammed", "party": "Independent", "alliance": "Others", "first_name": "kunnath"}]}]}, {"constituency": "Mannarkkad", "district": "Palakkad", "clash_count": 1, "clashes": [{"clash_name": "Shamsudheen", "clash_initial": "S", "count": 2, "candidates": [{"name": "Shamsudheen S/o Muhammed", "party": "Independent", "alliance": "Others", "first_name": "shamsudheen"}, {"name": "Shamsudheen S/o Ummer", "party": "Independent", "alliance": "Others", "first_name": "shamsudheen"}]}]}, {"constituency": "Mattanur", "district": "Kannur", "clash_count": 2, "clashes": [{"clash_name": "Sanoj", "clash_initial": "S", "count": 2, "candidates": [{"name": "V. K. Sanoj", "party": "CPI(M)", "alliance": "LDF", "first_name": "sanoj"}, {"name": "Sanoj", "party": "Independent", "alliance": "Others", "first_name": "sanoj"}]}, {"clash_name": "Chandran", "clash_initial": "C", "count": 2, "candidates": [{"name": "Chandran Thillankeri", "party": "INC", "alliance": "UDF", "first_name": "chandran"}, {"name": "Chandran Thengalath", "party": "Independent", "alliance": "Others", "first_name": "chandran"}]}]}, {"constituency": "Nadapuram", "district": "Kozhikode", "clash_count": 1, "clashes": [{"clash_name": "Abhijith", "clash_initial": "A", "count": 2, "candidates": [{"name": "K. M. Abhijith", "party": "INC", "alliance": "UDF", "first_name": "abhijith"}, {"name": "Abhijith, s/o Balan", "party": "Independent", "alliance": "Others", "first_name": "abhijith"}]}]}, {"constituency": "Nemom", "district": "Thiruvananthapuram", "clash_count": 1, "clashes": [{"clash_name": "Rajeev", "clash_initial": "R", "count": 2, "candidates": [{"name": "Rajeev Chandrasekhar", "party": "BJP", "alliance": "NDA", "first_name": "rajeev"}, {"name": "Rajeev Kumar G S", "party": "Independent", "alliance": "Others", "first_name": "rajeev"}]}]}, {"constituency": "Ottapalam", "district": "Palakkad", "clash_count": 1, "clashes": [{"clash_name": "Sasi", "clash_initial": "S", "count": 2, "candidates": [{"name": "P. K. Sasi", "party": "Independent (INC Support)", "alliance": "UDF", "first_name": "sasi"}, {"name": "Sasi P.K S/o Krishnankutty", "party": "Independent", "alliance": "Others", "first_name": "sasi"}]}]}, {"constituency": "Pala", "district": "Kottayam", "clash_count": 1, "clashes": [{"clash_name": "Santhosh", "clash_initial": "S", "count": 2, "candidates": [{"name": "Santhosh Nadoopparampil", "party": "BSP", "alliance": "Others", "first_name": "santhosh"}, {"name": "Santhosh Pulickal", "party": "Independent", "alliance": "Others", "first_name": "santhosh"}]}]}, {"constituency": "Perambra", "district": "Kozhikode", "clash_count": 2, "clashes": [{"clash_name": "Ramakrishnan", "clash_initial": "R", "count": 2, "candidates": [{"name": "T. P. Ramakrishnan", "party": "CPI(M)", "alliance": "LDF", "first_name": "ramakrishnan"}, {"name": "K. Ramakrishnan", "party": "Independent", "alliance": "Others", "first_name": "ramakrishnan"}]}, {"clash_name": "Fathima", "clash_initial": "F", "count": 2, "candidates": [{"name": "Fathima Thahiliya", "party": "IUML", "alliance": "UDF", "first_name": "fathima"}, {"name": "Fathima Nasri.V", "party": "Independent", "alliance": "Others", "first_name": "fathima"}]}]}, {"constituency": "Peravoor", "district": "Kannur", "clash_count": 1, "clashes": [{"clash_name": "Sunny", "clash_initial": "S", "count": 3, "candidates": [{"name": "Sunny Joseph", "party": "INC", "alliance": "UDF", "first_name": "sunny"}, {"name": "Sunny", "party": "Independent", "alliance": "Others", "first_name": "sunny"}, {"name": "Sunny Joseph Muthukulathel", "party": "Independent", "alliance": "Others", "first_name": "sunny"}]}]}, {"constituency": "Perinthalmanna", "district": "Malappuram", "clash_count": 2, "clashes": [{"clash_name": "Najeeb", "clash_initial": "N", "count": 2, "candidates": [{"name": "Najeeb Kanthapuram", "party": "IUML", "alliance": "UDF", "first_name": "najeeb"}, {"name": "Najeeb", "party": "Independent", "alliance": "Others", "first_name": "najeeb"}]}, {"clash_name": "Abdul", "clash_initial": "A", "count": 2, "candidates": [{"name": "Abdul Najeeb S/o Mohamed", "party": "Independent", "alliance": "Others", "first_name": "abdul"}, {"name": "Abdul Najeeb S/o Veerappu", "party": "Independent", "alliance": "Others", "first_name": "abdul"}]}]}, {"constituency": "Piravom", "district": "Ernakulam", "clash_count": 1, "clashes": [{"clash_name": "Sabu", "clash_initial": "S", "count": 2, "candidates": [{"name": "Sabu K Jacob", "party": "Kerala Congress (M)", "alliance": "LDF", "first_name": "sabu"}, {"name": "Sabu K Eramath", "party": "Independent", "alliance": "Others", "first_name": "sabu"}]}]}, {"constituency": "Ponnani", "district": "Malappuram", "clash_count": 1, "clashes": [{"clash_name": "Sakkeer", "clash_initial": "S", "count": 2, "candidates": [{"name": "Sakkeer S/o Illyas", "party": "Independent", "alliance": "Others", "first_name": "sakkeer"}, {"name": "Sakkeer S/o Muhammed", "party": "Independent", "alliance": "Others", "first_name": "sakkeer"}]}]}, {"constituency": "Poonjar", "district": "Kottayam", "clash_count": 1, "clashes": [{"clash_name": "Sebastian", "clash_initial": "S", "count": 2, "candidates": [{"name": "Sebastian Kulathunkal", "party": "Kerala Congress (M)", "alliance": "LDF", "first_name": "sebastian"}, {"name": "Sebastian M J", "party": "INC", "alliance": "UDF", "first_name": "sebastian"}]}]}, {"constituency": "Sulthan Bathery", "district": "Wayanad", "clash_count": 1, "clashes": [{"clash_name": "Balakrishnan", "clash_initial": "B", "count": 2, "candidates": [{"name": "I. C. Balakrishnan", "party": "INC", "alliance": "UDF", "first_name": "balakrishnan"}, {"name": "Balakrishnan Edakkal", "party": "Independent", "alliance": "Others", "first_name": "balakrishnan"}]}]}, {"constituency": "Taliparamba", "district": "Kannur", "clash_count": 2, "clashes": [{"clash_name": "Shyamala", "clash_initial": "S", "count": 2, "candidates": [{"name": "P. K. Shyamala", "party": "CPI(M)", "alliance": "LDF", "first_name": "shyamala"}, {"name": "Shyamala P", "party": "Independent", "alliance": "Others", "first_name": "shyamala"}]}, {"clash_name": "Govindan", "clash_initial": "G", "count": 2, "candidates": [{"name": "T K Govindan Master", "party": "Independent (INC Support)", "alliance": "UDF", "first_name": "govindan"}, {"name": "T. K. Govindan", "party": "Independent", "alliance": "Others", "first_name": "govindan"}]}]}, {"constituency": "Tanur", "district": "Malappuram", "clash_count": 1, "clashes": [{"clash_name": "Navas", "clash_initial": "N", "count": 2, "candidates": [{"name": "P. K. Navas", "party": "IUML", "alliance": "UDF", "first_name": "navas"}, {"name": "P P Navas S/o Kunhimuhamed", "party": "Independent", "alliance": "Others", "first_name": "navas"}]}]}, {"constituency": "Thalassery", "district": "Kannur", "clash_count": 2, "clashes": [{"clash_name": "Saju", "clash_initial": "S", "count": 2, "candidates": [{"name": "K. P. Saju", "party": "INC", "alliance": "UDF", "first_name": "saju"}, {"name": "Saju V P", "party": "Independent", "alliance": "Others", "first_name": "saju"}]}, {"clash_name": "Rajan", "clash_initial": "R", "count": 2, "candidates": [{"name": "Rajan O P", "party": "Independent", "alliance": "Others", "first_name": "rajan"}, {"name": "V. P. Rajan", "party": "Independent", "alliance": "Others", "first_name": "rajan"}]}]}, {"constituency": "Thavanur", "district": "Malappuram", "clash_count": 1, "clashes": [{"clash_name": "Abdul", "clash_initial": "A", "count": 2, "candidates": [{"name": "Abdul Jaleel", "party": "SDPI", "alliance": "Others", "first_name": "abdul"}, {"name": "Abdul Jaleel K T S/o Moideen K T", "party": "Independent", "alliance": "Others", "first_name": "abdul"}]}]}, {"constituency": "Thiruvambady", "district": "Kozhikode", "clash_count": 2, "clashes": [{"clash_name": "Kasim", "clash_initial": "K", "count": 2, "candidates": [{"name": "C. K. Kasim", "party": "IUML", "alliance": "UDF", "first_name": "kasim"}, {"name": "P K Kasim S/o Abdullakkutty Haji", "party": "Independent", "alliance": "Others", "first_name": "kasim"}]}, {"clash_name": "Sunny", "clash_initial": "S", "count": 2, "candidates": [{"name": "Sunny Thomas", "party": "TTP", "alliance": "NDA", "first_name": "sunny"}, {"name": "Sunny V Joseph", "party": "AAP", "alliance": "Others", "first_name": "sunny"}]}]}, {"constituency": "Thrikaripur", "district": "Kasaragod", "clash_count": 2, "clashes": [{"clash_name": "Sandeep", "clash_initial": "S", "count": 2, "candidates": [{"name": "Sandeep Varier", "party": "INC", "alliance": "UDF", "first_name": "sandeep"}, {"name": "Sandeep Elatt", "party": "Independent", "alliance": "Others", "first_name": "sandeep"}]}, {"clash_name": "Musthafa", "clash_initial": "M", "count": 2, "candidates": [{"name": "Musthafa P P", "party": "Independent", "alliance": "Others", "first_name": "musthafa"}, {"name": "Musthafa V P", "party": "Independent", "alliance": "Others", "first_name": "musthafa"}]}]}, {"constituency": "Thrippunithura", "district": "Ernakulam", "clash_count": 1, "clashes": [{"clash_name": "Unnikrishnan", "clash_initial": "U", "count": 2, "candidates": [{"name": "K. N. Unnikrishnan", "party": "CPI(M)", "alliance": "LDF", "first_name": "unnikrishnan"}, {"name": "Unnikrishnan K N", "party": "Independent", "alliance": "Others", "first_name": "unnikrishnan"}]}]}, {"constituency": "Thrissur", "district": "Thrissur", "clash_count": 1, "clashes": [{"clash_name": "Rajan", "clash_initial": "R", "count": 2, "candidates": [{"name": "Rajan Pallan", "party": "INC", "alliance": "UDF", "first_name": "rajan"}, {"name": "Rajan. M", "party": "Independent", "alliance": "Others", "first_name": "rajan"}]}]}, {"constituency": "Thrithala", "district": "Palakkad", "clash_count": 2, "clashes": [{"clash_name": "Rajesh", "clash_initial": "R", "count": 2, "candidates": [{"name": "M. B. Rajesh", "party": "CPI(M)", "alliance": "LDF", "first_name": "rajesh"}, {"name": "Rajesh S/o Ramankutty", "party": "Independent", "alliance": "Others", "first_name": "rajesh"}]}, {"clash_name": "Balaraman", "clash_initial": "B", "count": 2, "candidates": [{"name": "T T Balaraman", "party": "Independent", "alliance": "Others", "first_name": "balaraman"}, {"name": "Balaraman", "party": "Independent", "alliance": "Others", "first_name": "balaraman"}]}]}, {"constituency": "Tirur", "district": "Malappuram", "clash_count": 1, "clashes": [{"clash_name": "Abdurahiman", "clash_initial": "A", "count": 2, "candidates": [{"name": "V. Abdurahiman", "party": "CPI(M)", "alliance": "LDF", "first_name": "abdurahiman"}, {"name": "Abdurahiman S/o Kunjeen", "party": "Independent", "alliance": "Others", "first_name": "abdurahiman"}]}]}, {"constituency": "Vaikom", "district": "Kottayam", "clash_count": 1, "clashes": [{"clash_name": "Pradeep", "clash_initial": "P", "count": 2, "candidates": [{"name": "P. Pradeep", "party": "CPI", "alliance": "LDF", "first_name": "pradeep"}, {"name": "Pradeep", "party": "Independent", "alliance": "Others", "first_name": "pradeep"}]}]}, {"constituency": "Vatakara", "district": "Kozhikode", "clash_count": 2, "clashes": [{"clash_name": "Bhaskaran", "clash_initial": "B", "count": 2, "candidates": [{"name": "M. K. Bhaskaran", "party": "RJD", "alliance": "LDF", "first_name": "bhaskaran"}, {"name": "Bhaskaran K K S/o Kelappan", "party": "Independent", "alliance": "Others", "first_name": "bhaskaran"}]}, {"clash_name": "Rama", "clash_initial": "R", "count": 2, "candidates": [{"name": "Rama T P W/o Ashokan P K", "party": "Independent", "alliance": "Others", "first_name": "rama"}, {"name": "Rama W/o Vijayan", "party": "Independent", "alliance": "Others", "first_name": "rama"}]}]}, {"constituency": "Vattiyoorkavu", "district": "Thiruvananthapuram", "clash_count": 1, "clashes": [{"clash_name": "Prasanth", "clash_initial": "P", "count": 2, "candidates": [{"name": "V. K. Prasanth", "party": "CPI(M)", "alliance": "LDF", "first_name": "prasanth"}, {"name": "Prasanth. K S/o. Karunakaran.C", "party": "Independent", "alliance": "Others", "first_name": "prasanth"}]}]}], "allDistricts": ["Alappuzha", "Ernakulam", "Idukki", "Kannur", "Kasaragod", "Kollam", "Kottayam", "Kozhikode", "Malappuram", "Palakkad", "Pathanamthitta", "Thiruvananthapuram", "Thrissur", "Wayanad"], "constByDistrict": {"Alappuzha": ["Alappuzha", "Ambalappuzha", "Aroor", "Chengannur", "Cherthala", "Haripad", "Kayamkulam", "Kuttanad", "Mavelikara"], "Ernakulam": ["Aluva", "Angamaly", "Ernakulam", "Kalamassery", "Kochi", "Kothamangalam", "Kunnathunad", "Muvattupuzha", "Paravur", "Perumbavoor", "Piravom", "Thrikkakara", "Thrippunithura", "Vypin"], "Idukki": ["Devikulam", "Idukki", "Peerumade", "Thodupuzha", "Udumbanchola"], "Kannur": ["Azhikode", "Dharmadom", "Irikkur", "Kalliasseri", "Kannur", "Kuthuparamba", "Mattanur", "Payyanur", "Peravoor", "Taliparamba", "Thalassery"], "Kasaragod": ["Kanhangad", "Kasaragod", "Manjeshwaram", "Thrikaripur", "Udma"], "Kollam": ["Chadayamangalam", "Chathannoor", "Chavara", "Eravipuram", "Karunagappally", "Kollam", "Kottarakkara", "Kundara", "Kunnathur", "Pathanapuram", "Punalur"], "Kottayam": ["Changanassery", "Ettumanoor", "Kaduthuruthy", "Kanjirappally", "Kottayam", "Pala", "Poonjar", "Puthuppally", "Vaikom"], "Kozhikode": ["Balussery", "Beypore", "Elathur", "Koduvally", "Koyilandy", "Kozhikode North", "Kozhikode South", "Kunnamangalam", "Kuttiady", "Nadapuram", "Perambra", "Thiruvambady", "Vatakara"], "Malappuram": ["Eranad", "Kondotty", "Kottakkal", "Malappuram", "Manjeri", "Mankada", "Nilambur", "Perinthalmanna", "Ponnani", "Tanur", "Thavanur", "Tirur", "Tirurangadi", "Vallikkunnu", "Vengara", "Wandoor"], "Palakkad": ["Alathur", "Chittur", "Kongad", "Malampuzha", "Mannarkkad", "Nenmara", "Ottapalam", "Palakkad", "Pattambi", "Shornur", "Tarur", "Thrithala"], "Pathanamthitta": ["Adoor", "Aranmula", "Konni", "Ranni", "Thiruvalla"], "Thiruvananthapuram": ["Aruvikkara", "Attingal", "Chirayinkeezhu", "Kattakkada", "Kazhakkoottam", "Kovalam", "Nedumangad", "Nemom", "Neyyattinkara", "Parassala", "Thiruvananthapuram", "Vamanapuram", "Varkala", "Vattiyoorkavu"], "Thrissur": ["Chalakudy", "Chelakkara", "Guruvayur", "Irinjalakuda", "Kaipamangalam", "Kodungallur", "Kunnamkulam", "Manalur", "Nattika", "Ollur", "Puthukkad", "Thrissur", "Wadakkanchery"], "Wayanad": ["Kalpetta", "Mananthavady", "Sulthan Bathery"]}, "stats": {"constituencies": 52, "names": 62, "candidates": 144}};
+
+// Populate district dropdown
+const distSel = document.getElementById('districtFilter');
+DATA.allDistricts.forEach(d => {
+  const o = document.createElement('option');
+  o.value = d; o.textContent = d;
+  distSel.appendChild(o);
+});
+
+function onDistrictChange() {
+  const dist = distSel.value;
+  const cSel = document.getElementById('constFilter');
+  cSel.innerHTML = '<option value="">All constituencies</option>';
+  const list = dist ? (DATA.constByDistrict[dist] || []) :
+    Object.keys(DATA.constByDistrict).sort().flatMap(d => DATA.constByDistrict[d]);
+  list.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c;
+    cSel.appendChild(o);
+  });
+  render();
+}
+onDistrictChange();
+
+function getAllianceKey(alliance) {
+  if (!alliance) return 'Others';
+  const a = alliance.trim().split(' ')[0];
+  return ['LDF','UDF','NDA'].includes(a) ? a : 'Others';
+}
+
+function render() {
+  const dist   = document.getElementById('districtFilter').value;
+  const constV = document.getElementById('constFilter').value;
+  const search = document.getElementById('searchInput').value.trim().toLowerCase();
+
+  let groups = DATA.clashGroups;
+  if (dist)   groups = groups.filter(g => g.district === dist);
+  if (constV) groups = groups.filter(g => g.constituency === constV);
+  if (search) {
+    groups = groups.map(g => ({
+      ...g,
+      clashes: g.clashes.filter(cl =>
+        cl.clash_name.toLowerCase().includes(search) ||
+        cl.candidates.some(c => c.name.toLowerCase().includes(search))
+      )
+    })).filter(g => g.clashes.length > 0);
+  }
+
+  // Live stats
+  const nameSet = new Set(), candSet = new Set();
+  groups.forEach(g => g.clashes.forEach(cl => {
+    nameSet.add(cl.clash_name);
+    cl.candidates.forEach(c => candSet.add(c.name));
+  }));
+  document.getElementById('statConst').textContent = groups.length;
+  document.getElementById('statNames').textContent  = nameSet.size;
+  document.getElementById('statCands').textContent  = candSet.size;
+
+  const grid = document.getElementById('grid');
+  if (!groups.length) {
+    grid.innerHTML = '<div class="empty-state"><p>No name clashes found for the selected filters.</p></div>';
+    return;
+  }
+
+  grid.innerHTML = groups.map(g => {
+    const clashWord = g.clash_count === 1 ? 'clash' : 'clashes';
+    const clashesHTML = g.clashes.map(cl => {
+      const candsHTML = cl.candidates.map(c => {
+        const ak = getAllianceKey(c.alliance);
+        return `<div class="candidate-row">
+          <div class="cand-left">
+            <div class="cand-dot dot-${ak}"></div>
+            <span class="cand-name" title="${c.name}">${c.name}</span>
+          </div>
+          <div class="cand-right">
+            <span class="party-name" title="${c.party}">${c.party}</span>
+            <span class="alliance-pill pill-${ak}">${ak}</span>
+          </div>
+        </div>`;
+      }).join('');
+      return `<div class="clash-group">
+        <div class="clash-name-row">
+          <span class="clash-badge">${cl.clash_name}</span>
+          <span class="clash-count-label">${cl.count} candidates</span>
+        </div>
+        ${candsHTML}
+      </div>`;
+    }).join('');
+
+    return `<div class="const-card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">${g.constituency}</div>
+          <div class="card-district">${g.district}</div>
+        </div>
+        <div class="card-clash-count">
+          <div class="card-clash-num">${g.clash_count}</div>
+          <div class="card-clash-label">${clashWord}</div>
+        </div>
+      </div>
+      ${clashesHTML}
+    </div>`;
+  }).join('');
+}
+
+render();
+</script>
+</body>
+</html>
